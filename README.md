@@ -1,7 +1,7 @@
-# Repository for the CytoKin Documentation
+# Repository for the Cells Documentation
 
 This only contains the html files hosted. Follow the below links to continue:
 
-[Actual CytoKin Repository](https://github.com/TheRoot89/CytoKin) (private Repo)
+[Actual Cells Repository](https://github.com/TheRoot89/Cells) (private Repo)
 
-[CytoKin Documentation](https://theroot89.github.io/CytoKinDoc/index.html)
+[Cells Documentation](https://theroot89.github.io/CellsDoc/index.html)
