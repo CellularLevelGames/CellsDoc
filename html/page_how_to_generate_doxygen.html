@@ -99,7 +99,10 @@ $(document).ready(function(){initNavTree('page_how_to_generate_doxygen.html','')
 <p>Use the PowerShell script <code>build_docu.ps1</code> in the <em>Doc</em> folder to build the documentation. It calls <code>doxygen Doxyfile</code> to call doxygen with its configuration and creates a link to the start page. <br />
  Double-click it to execute and select PowerShell as program to open it with if necessary. In order to allow PowerShell script execution you may have to execute the following in a PowerShell you started with Admin rights: <code>Set-ExecutionPolicy Unrestricted</code></p>
 <p>When the generation of the HTML output ist done, the script will also add a link to the main page which is in <code>Doc/doxy_out/html/index.html</code>. Open that with your browser.<br />
- The content of the <em>html</em> folder is what is uploaded to our Docu repository and hosted automatically by GitHub. </p>
+ The content of the <em>html</em> folder is what is uploaded to our Docu repository and hosted automatically by GitHub.</p>
+<blockquote class="doxtable">
+<p>In case you want to update our hosted documentation, clone the CellsDoc repo and paste the html output into the html folder of that repo on the master branch. Push. Done. </p>
+</blockquote>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -107,7 +110,7 @@ $(document).ready(function(){initNavTree('page_how_to_generate_doxygen.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="page_howtos.html">How-Tos</a></li>
-    <li class="footer">Generated on Thu Sep 17 2020 21:04:59 for Cells by
+    <li class="footer">Generated on Sat Sep 19 2020 17:32:46 for Cells by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

@@ -103,11 +103,16 @@ $(document).ready(function(){initNavTree('page_how_to_add_to_doxygen.html','');}
 <p><b>Note:</b> We are currently using Doxygen Version 1.8.13 for Windows. Other versions may have queer effects as each version tends to have their own quirks... </p>
 </blockquote>
 <h2>Documentation structure </h2>
-<p>Regarding the project (game feature) content itself, there are distinct steps from an idea, to its evaluation/integration on system level, to its realization on SW level. This is explained on the page_sw_component_design pages.<br />
- The resulting SW has to be documented as well, which is done in the <a class="el" href="page_sw_architecture.html">SW Architecture</a> and the generated SW detailed design (API). Additionally, there should be pages on development topics, such as tooling and How-Tos.</p>
+<p>Regarding the project (game feature) content itself, there are distinct steps from an idea, to its evaluation/integration on system level, to its realization on SW level:</p>
+<ol type="1">
+<li>Ideas: <a class="el" href="page_game_design.html">Game Design</a></li>
+<li>System and Component level: <a class="el" href="page_sw_architecture.html">SW Architecture</a></li>
+<li>SW unit Level: See classes list for details on every class and its members.</li>
+</ol>
+<p>Additionally, there are be pages on development topics, such as tooling and How-Tos.</p>
 <h2>Modifying a page </h2>
 <p>You can change the Markdown content with any text editor. Some editors, like VS Code, are able to show rendered previews of the Markdown, which gives a hint for how it's going to look as Doxygen output as well.</p>
-<p>When adding or modifying content of pages, consider to build the docu afterwards locally, to check whether the result matches your expectations. Also consider uploading the HTML output (in <em>Doc/doxy_out</em>) to our Docu repository: <a href="https://github.com/TheRoot89/BomberUnitsDocu">https://github.com/TheRoot89/BomberUnitsDocu</a><br />
+<p>When adding or modifying content of pages, consider to build the docu afterwards locally, to check whether the result matches your expectations. Also consider uploading the HTML output (in <em>Doc/doxy_out</em>) to our Docu repository: <a href="https://github.com/CellularLevelGames/CellsDoc">https://github.com/CellularLevelGames/CellsDoc</a><br />
  You do not have to create a branch or anything, simply commit your new docu generated content to the master.</p>
 <h2>Creating a new page </h2>
 <p>Ok, so assuming you want to explain a concept, do a How-to or whatever comes to your mind - and you need to add a new page:</p>
@@ -131,6 +136,8 @@ $(document).ready(function(){initNavTree('page_how_to_add_to_doxygen.html','');}
 <object type="image/svg+xml" data="inline_umlgraph_1.svg"></object>
 </div>
 <p> ~~~</p>
+<h2>Using yEd in Doxygen </h2>
+<p>yEd is a simple and small diagram editor you can find on the web. The diagrams can be exported to .svg, which can be included in the Doxygen pages. This is cool because they are small, zoom clearly and can even have active links to other pages, when setting these in the 'Url' field of a shape in yEd!</p>
 <h2>Using images in Doxygen </h2>
 <p>To import an image file use the command ![Caption text](/path/to/img.jpg). Again, without any backslashes, should you be reading this in plain text.</p>
 <p>Your have to give the path relative to the Doc folder as this is the execution directory for Doxygen. Also, you have to place your images in the <code>doxy_in/images</code> folder, so your path will be: <code>/doxy_in/images/[image_file]</code></p>
@@ -141,8 +148,6 @@ Example image</div></div>
 <blockquote class="doxtable">
 <p>Please note images will usually not be found and displayed in the markdown preview. </p>
 </blockquote>
-<hr/>
-<p>readme_scripts_visualsAndEffects </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -150,7 +155,7 @@ Example image</div></div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="page_howtos.html">How-Tos</a></li>
-    <li class="footer">Generated on Thu Sep 17 2020 21:04:59 for Cells by
+    <li class="footer">Generated on Sat Sep 19 2020 17:32:46 for Cells by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

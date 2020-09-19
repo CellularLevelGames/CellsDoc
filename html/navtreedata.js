@@ -28,7 +28,7 @@ var NAVTREE =
     [ "Introduction", "page_intro.html", "page_intro" ],
     [ "Game Design", "page_game_design.html", null ],
     [ "SW Architecture", "page_sw_architecture.html", null ],
-    [ "Tooling", "page_tooling.html", null ],
+    [ "Tooling", "page_tooling.html", "page_tooling" ],
     [ "How-Tos", "page_howtos.html", "page_howtos" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]

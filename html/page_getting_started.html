@@ -104,14 +104,14 @@ $(document).ready(function(){initNavTree('page_getting_started.html','');});
 <h3>The correct Unity Version via Unity Hub</h3>
 <p>Hop on over to <a href="https://unity3d.com/de/get-unity/download">Unity</a>, select the Unity Hub for download and go through the setup.<br />
  Unity Hub allows you to manage multiple installations of Unity on your computer, as well as associate your projects (and our project) with one of these installations. This is a good thing, as we need to work all with the same version but you may, for example, need want to switch back to an old branch requiring an older Unity.<br />
- Install and select the currently used Unity version from the Hub App. You can find our currently used Unity version near the top of our mainpage in the "Last stable release" note: <a class="el" href="index.html">Home</a> .</p>
+ Install and select the currently used Unity version from the Hub App. You can find our currently used Unity version near the top of our mainpage in the "Current master version" section: <a class="el" href="index.html">Home</a> .</p>
 <h3>Visual Studio or Visual Studio Code</h3>
 <p>The Unity Editor comes with built-in support vor VS and VS Code. This means Unity will create the project configuration and start it up when you click to edit a script from your game's <em>Assets</em>. You need to have one of the above installed. Unity offers to install a VS version automatically with its main installation.</p>
-<p>Toni strongly recommends though to check out VS Code as it is awesome. To switch to VS Code support from the default VS: Open up <em>Unity Preferences</em>, <em>External Tools</em>, then browse for the VS Code executable as <em>External Script Editor</em>. VS Code profits from a vast range of plugins to make your life easier and some especially useful for us are listed on the <em>Tooling</em> page: <a class="el" href="page_tooling.html">Tooling</a> <br />
+<p>Toni strongly recommends though to check out VS Code as it is <em>awesome</em>. To switch to VS Code support from the default VS: Open up <em>Unity Preferences</em>, <em>External Tools</em>, then browse for the VS Code executable as <em>External Script Editor</em>. VS Code profits from a vast range of plugins to make your life easier and some especially useful for us are listed on the <em>Tooling</em> page: <a class="el" href="page_tooling.html">Tooling</a> <br />
  Also look <a href="https://code.visualstudio.com/docs/other/unity">here</a> for more info on VS Code used with Unity.</p>
 <h3>Git</h3>
 <p>Git is one of the currently most popular Versioning Tools out there. It can be used from the command line, but got a lot of graphical front ends from hobby devs and companies alike. Download it <a href="https://git-scm.com/">here</a> and be sure to understand the basics of it by making use of the vast amount of tutorials on the net (for example on the Git homepage itself).<br />
-</p>
+ We basically create branches for our issues, referencing the number of it in the naming. Once done we open a Pull Request on GitHub and let others learn and comment on what we did. As Unity generates a lot of files that are not nicely readable, it makes sense for the developer to explain a bit what he did (What's App, GitHub Team Dicussion, on the PR, in .md files) and for reviewers to check out and open the branch.</p>
 <h3>Doxygen</h3>
 <p>...is the defacto standard for automated documentation generation for all kinds of languages. This is not a <em>must</em>, but dearly recommended, as we try to document lots of useful stuff nicely readable there **fingers crossed**. Get it <a href="https://sourceforge.net/projects/doxygen/files/">here</a> and install. This is also a command line tool - usage instructions can be found on our project homepage <a class="el" href="index.html">Home</a>.</p>
 <blockquote class="doxtable">
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('page_getting_started.html','');});
 <p>After the clone, be sure to execute<br />
  <code>git lfs install</code><br />
  from your local repo folder once, using for example the Git Bash, which comes with your Git installation. This ensures large files are not saved in every version on every client, which is important when working with Unity Assets.</p>
-<p>You will now have the newest "Master" branch checked out. The folder can be selected from Unity Hub as project and should open with an installed Unity version as given on the top of the <a class="el" href="index.html">Home</a>.</p>
+<p>You will now have the newest "master" branch checked out. The folder can be selected from Unity Hub as project and should open with an installed Unity version as given on the top of the <a class="el" href="index.html">Home</a>.</p>
 <h2>3: Understand the basics of our tools </h2>
 <p>This should be more of lookup thing than learning everything beforehand. Go to the <a class="el" href="page_tooling.html">Tooling</a> if you need info on a certain tool. Maybe start with Unity itself ;).</p>
 <p>To get an understanding for which tool is used for what, have a look at the <a class="el" href="page_intro.html">Introduction</a> page -&gt; "So how can I contribute?"-Section.</p>
@@ -131,18 +131,17 @@ $(document).ready(function(){initNavTree('page_getting_started.html','');});
 <p>Ok, this is the most tricky part. The idea is to have everything documented on the following pages and their respective child pages:</p>
 <ul>
 <li>**<a class="el" href="page_game_design.html">Game Design</a>** : Explanations of features we want in this game.</li>
-<li>**<a class="el" href="page_sw_architecture.html">SW Architecture</a>** : Top-Down explanation of the overall software with references to the individual SW components and thoughts on general concepts.</li>
-<li>**page_sw_component_design** : Detailed explanations on how a certain topic is implemented.</li>
+<li>**<a class="el" href="page_sw_architecture.html">SW Architecture</a>** : Top-Down explanation of the overall software with references to the individual SW components and thoughts on concepts.</li>
 </ul>
 <p>Best use the doxygen output for reading this, so links to classes etc. work. There is always a version of this docu together with the Doxygen output from the master branch hosted here: </p><blockquote class="doxtable">
-<p><a href="https://theroot89.github.io/BomberUnitsDocu/index.html">https://theroot89.github.io/BomberUnitsDocu/index.html</a><br />
- (It may be out of date though. See the Doxygen How-To pages for how to create a local, current version.) </p>
+<p><a href="https://cellularlevelgames.github.io/CellsDoc">https://cellularlevelgames.github.io/CellsDocl</a><br />
+ (It may be out of date though. See the Doxygen How-To section for how to create a local up-to-date version.) </p>
 </blockquote>
 <h2>5: An example of a typical SW change workflow </h2>
 <p>For a feature implementation, things may go like this:</p>
 <ol type="1">
-<li>We decide together which features we want to implement next and move these on our <a href="https://github.com/TheRoot89/BomberUnits/projects">GitHub Repo Projects page</a> from the "Ideas" column to the "ToDo" column.</li>
-<li>Choose one of these tasks and convert the note card to a full <em>Issue</em> via "..." -&gt; "Convert to Issue", if that was not already done before. You also assign yourself as the "Assignee" of that task.</li>
+<li>We decide together which features we want to implement next and move these on our <a href="https://github.com/CellularLevelGames/Cells/projects/1">GitHub Game Design project</a> from the "Brainstorm" column to the "Confirmed" column. Then we need to create issues on the GitHub <a href="https://github.com/CellularLevelGames/Cells/projects/2">Issue Board</a>, according to what things need to be done to make the feature a reality.</li>
+<li>Choose one of these tasks and - if needed - convert the note card to a full <em>Issue</em> via "..." -&gt; "Convert to Issue". You also need to assign yourself as the "Assignee" of that task. There is also an issue template which has a reminding list of activities while you pursue it.</li>
 <li>Fill the issue with whatever info you feel necessary or start a conversation using the comment section.</li>
 <li>Create a branch (from master most of the time), mentioning the issue number in its naming.<br />
  Example: "feature/#4_implement_multiplayer".<br />
@@ -150,7 +149,7 @@ $(document).ready(function(){initNavTree('page_getting_started.html','');});
 <li>Work on you branch and add the feature, using Git and pushing your changes to our repo. Best move your issue from the "ToDo" column to the "In progress" column.</li>
 <li>If there were changes on the master branch from when you branched off it, merge "master" to your branch to check compatibility, resolve merge conflicts and test whether everything still works as expected.</li>
 <li>Go to GitHub, select your branch on the left and click "New pull request". Fill in the details of what you did on your branch, assign Reviewers on the top right and click "Create pull request".</li>
-<li>Once the reviews from us approve your changes, the created pull request (PR) can be merged in GitHub. If you don't need it any longer, your branch can be deleted (this will only delete the name, not the commits you did) and you can close your Issue and move it to the "Done" column! Yeah!</li>
+<li>Once the reviews from us approve your changes, the created pull request (PR) can be merged in GitHub. If you don't need it any longer, your branch can be deleted (this will only delete the name, not the commits you did) and you can close your Issue and move it to the "Done" column! Yeah! You can also reference your issue from your PR, in the bottom right 'Linked Issues' section.</li>
 </ol>
 <hr/>
 <p>We hope you feel like you know how things go now. Read on for info on Unity and what needs to be done in game development in general. And most importantly: have some fun!</p>
@@ -162,7 +161,7 @@ $(document).ready(function(){initNavTree('page_getting_started.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="page_intro.html">Introduction</a></li>
-    <li class="footer">Generated on Thu Sep 17 2020 21:04:59 for Cells by
+    <li class="footer">Generated on Sat Sep 19 2020 17:32:46 for Cells by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

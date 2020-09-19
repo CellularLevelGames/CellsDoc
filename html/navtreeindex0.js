@@ -52,8 +52,8 @@ var NAVTREEINDEX0 =
 "hierarchy.html":[7,2],
 "index.html":[0],
 "index.html":[],
-"namespace_unity_template_projects.html":[6,0,0],
 "namespace_unity_template_projects.html":[7,0,0],
+"namespace_unity_template_projects.html":[6,0,0],
 "namespaces.html":[6,0],
 "page_game_design.html":[2],
 "page_getting_started.html":[1,0],
@@ -63,5 +63,6 @@ var NAVTREEINDEX0 =
 "page_intro.html":[1],
 "page_sw_architecture.html":[3],
 "page_tooling.html":[4],
+"page_vs_code_setup.html":[4,0],
 "pages.html":[]
 };

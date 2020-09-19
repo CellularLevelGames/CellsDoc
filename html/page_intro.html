@@ -92,49 +92,47 @@ $(document).ready(function(){initNavTree('page_intro.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1>Introduction </h1>
-<blockquote class="doxtable">
-<p>Has to be updated for Cells. This is copied from BomberUnits for now. </p>
-</blockquote>
 <h2>About ... us! </h2>
 <p>Our goals are</p>
 <ul>
 <li>Having fun!</li>
-<li>Learning how to make games</li>
-<li>Discovering the different aspects that need to be taken care of</li>
+<li>Learning how to make games with all its facets</li>
 <li>Realizing game ideas we would want to play ourselves</li>
-<li>Becoming better coders, designers, architects ...</li>
+<li>Becoming better coders, designers, architects, people ...</li>
 </ul>
 <h2>About the game </h2>
-<p>So, <b>Bomberman</b> is a classic game type (Google!). We first want to emulate its classic, fun, simple scheme of moving your player figure, lay bombs, collect PowerUps and finally explode your opponents.</p>
-<p>As this is vitally important today, we also want to support <b>mixed multiplayer</b> (local, remote). Of course a game does not just start directly with a level and your fellow players already there. There has to be a menu UI, (online) player management, level selection, game-over screen etc...</p>
-<p>When this runs stable, we want to add our own take on the genre and add our <b>own features</b>. This could be especially group-driven, where we can brainstorm, decide, implement and test together.</p>
+<p><b>Cells</b> is intended to be a new type of tactical command game. We want to combine RTS-like components, such as commanding units and gathering resources with Two-Stick-Shooter elements, where a a single player character fights and interacts with the world. The goal is to finally destroy the home bases or player characters of your enemies.</p>
+<p>We want to support only competitive play for now, but aim to also allow for couch-coop etc. using controller input in the future.</p>
+<p>The setting is that of microbiology, with units essentially being bacteria and the like. We think this lore allows for many interesting game mechanics while working for our (currently) limited artistic capabilities.</p>
 <p>Interested? Read the **<a class="el" href="page_getting_started.html">Getting Started</a>** page so set things up. For more details on what there is to do, read on :)</p>
 <h2>So how can I contribute? </h2>
 <p>The are quite a lot of things to be done, where you can pick what you think is most fun for you. Here is a brainstormed list:</p>
 <ul>
 <li><b>Game Design</b></li>
 <li><b>Planning &amp; Teamwork</b></li>
+<li><b>Rendering &amp; Shading</b></li>
 <li><b>Art Design &amp; Modelling</b></li>
 <li><b>Rigging &amp; Animation</b></li>
 <li><b>Level Design</b></li>
 <li><b>Scripting</b></li>
-<li><b>Effects</b></li>
+<li><b>Effects &amp; Lighting</b></li>
 <li><b>Post processing</b></li>
 <li><b>DevOps</b></li>
 <li><b>Testing</b></li>
 </ul>
 <h2>Okay, what does the above mean, roughly, and how would I go on about it? </h2>
 <h3>Game Design</h3>
-<p>The core of any project: figuring out what the f*** we actually want. In order to get going, we need at least some basic ideas, preferably with an interesting twist. Then we need to refine these ideas to answer questions such as:</p>
+<p>The core of any project: figuring out what we actually want. In order to get going, we need at least some basic ideas, preferably with an interesting twist. Then we need to refine these ideas to answer questions such as:</p>
 <ul>
 <li>How will playing this be fun?</li>
-<li>What are the core elements and themes?</li>
+<li>What interesting choices does this element give to the player?</li>
+<li>What are the core elements and themes of the game? Are they clearly visible?</li>
 <li>What shall the Player's experience be like?</li>
-<li>What should the graphical style be like? What that of the UI?</li>
-<li>What main functionality will the SW have to provide?</li>
+<li>What should the graphical style be like? (2D, 3D, Rendering, Poly count...)</li>
+<li>What main functionality will the SW have to provide? (Think e.g. multiplayer...)</li>
 <li>What other, crazy ideas do we have? Do they fit in?</li>
 </ul>
-<p>The <b>tools to support this</b> are up to discussion - I just started with plain Powerpoint but am moving things towards these markdown pages, combined with yEd diagrams as svg images.</p>
+<p>The tool to use here is mainly the <b>Game Design project in GitHub</b>, where you can add and sort ideas. You can also start discussions in our <b>GitHub Team</b> (CellsDevTeam) or via What's App. Be sure to cement decisions in .md files for doxygen :)</p>
 <h3>Planning &amp; Teamwork</h3>
 <p>So, imagine we have quite a big list of tasks, big and small, crazy ideas and stuff we just want to try to see whether they work. We need to:</p>
 <ol type="1">
@@ -148,49 +146,50 @@ $(document).ready(function(){initNavTree('page_intro.html','');});
 <li>How do we want to collaborate? Are there any rules?</li>
 <li>Most importantly: How can we improve?</li>
 </ul>
-<p>One tool to support this is surely the <b>project tab and issue tracking</b> of <a href="https://github.com/TheRoot89/BomberUnits">GitHub</a>, where our code is hosted anyway. It offers a way to collect, sort and prioritize ideas as notes, track tasks, and rant about them in strong language. Information not related to ideas or tasks may be tracked using these nice Markdown pages.</p>
+<p>One tool to support this is surely the <b>project tab and issue tracking</b> as well as Team area of <a href="https://github.com/CellularLevelGames">GitHub</a>, where our code is hosted anyway. It offers a way to collect, sort and prioritize ideas as notes, track tasks, and rant about them in strong language. Information not related to ideas or tasks may be tracked using these nice Markdown pages.</p>
+<h2>Rendering &amp; Shading</h2>
+<p>Unity allows for a number of different rendering pipelines and it is a field in its own to find out which suit our needs best. This includes quite some Google usage and testing stuff.</p>
+<p>Making Shaders is actually quite easy using the Shader Graph package, where one can design the look of surfaces with a myriad of options. An typical example would be creating a water shader.</p>
 <h3>Art Design &amp; Modelling</h3>
-<p>If this is not a text adventure, we will need to show some art, be it 2D or 3D. How can we achieve this without hiring Weta Workshop? How do we achieve a reasonable look with comparably low effort? The current take on this is to have low-res models and high-res effects. This is a common thing to do in the industry seemingly when you are low on budget.</p>
-<p>The tools to support this are manyfold, with many specialized solutions for the different artsy tasks, depending on what we want. Simple models can be made for example with <b><a href="https://assetforge.io/">AssetForge</a></b>, while arbitrarily complex stuff can be done with <b>Blender</b>. Maps and textures can be found, also free, all over the web. The final look will also largely depend on the Postprocessing Stack, allowing cool looks for low-poly models.</p>
+<p>If this is not a text adventure, we will need to show some art, be it 2D or 3D. How can we achieve this without hiring Weta Workshop? How do we achieve a reasonable look with comparably low effort? The current take on this is to have low-res models/art and high-res effects. This is a common thing to do in the industry seemingly when you are low on budget...</p>
+<p>The tools to support this are manyfold, with many specialized solutions for the different artsy tasks, depending on what we want. Simple models can be made for example with <b><a href="https://assetforge.io/">AssetForge</a></b>, while arbitrarily complex stuff can be done with <b>Blender</b>. Maps and textures can be found, also free, all over the web. The final look will also largely depend on the Postprocessing Stack, allowing cool looks for low-poly models. Sprite drawing also has a range of tools, like <b>Photoshop</b> or <b>Aceprite</b>.</p>
 <h3>Rigging &amp; Animation</h3>
-<p>Rigging is the task of providing a virtual skeleton, or <em>rig</em>, for your models. This allows to deform the models to assume natural looking poses. A sequence of such poses forms an Animation, which is a kind of asset importable and replay-able in Unity.</p>
-<p><b>Tools to support this:</b> Rigging is typically supported by modeling SW, such as Blender. Animations may be done in the Unity editor as well, while the final chaining of animations with animation state machines is a task of game development, also supported graphically by the Unity Editor.</p>
+<p>Rigging is the task of providing a virtual skeleton, or <em>rig</em>, for your models. This allows to deform the models to assume natural looking poses. A sequence of such poses forms an Animation, which is a kind of asset importable and replay-able in Unity. Animations can be used for other things as well though, for example to animate menu items or even to implement state machines, e.g. for enemy behaviour.</p>
+<p>Rigging is typically supported by modeling SW, such as <b>Blender</b>. Animations may be done in the <b>Unity editor</b> as well, while the final chaining of animations with animation state machines is a task of game development, also supported graphically by the Unity Editor.</p>
 <h3>Level Design</h3>
 <p>This is what the title implies, and you have probably seen good and bad levels abound yourselves. It is a bit of a cross-over task:<br />
  The design aspect of this is a part of the <em>Game Design</em>, especially when thinking of cool level features, which will need support from a <em>Scripting</em> perspective.</p>
-<p>For the actual modeling of a level Scene, using mainly the Unity Editor as <b>Tool</b>, you will combine Models as well as maybe create your own stuff, as a <em>Modeling</em> guy would do. Poor fella.</p>
+<p>For the actual modeling of a level Scene, using mainly the Unity Editor as <b>Tool</b>, you will combine Models as well as maybe create your own stuff, as a <em>Modeling</em> guy would do. 2D level design takes advantage of Unity's Tilemap system, where one can have intelligent sets of tiles to# draw a level with.</p>
 <h3>Scripting</h3>
 <p>This is the art of learning what the Unity API has to offer, how to use that to design an understandable and reusable SW architecture and - of course - coding the thing in C# (or Java Script alternatively). The scripts bring the game objects to life, let you play with friends, produce tons of log output, and so on...<br />
  Game development may sound like it is all about Coding/Scripting, but as you see, there are many daunting tasks each worthy ofa whole profession in the industry.</p>
-<p>The <b>tools to do that</b> are Unity and a supported IDE, such as Visual Studio or Visual Studio Code. Have a look at the Tooling section (<a class="el" href="page_tooling.html">Tooling</a>) for how to set those up. There is no black magic involved, as Unity pretty much has the whole toolchain, up to deployment, built-in. Nice.</p>
-<h3>Effects</h3>
+<p>The tools to do that are Unity and a supported IDE, such as <b>Visual Studio or Visual Studio Code</b>. Have a look at the Tooling section (<a class="el" href="page_tooling.html">Tooling</a>) for how to set those up. There is no black magic involved, as Unity pretty much has the whole toolchain, up to deployment, built-in.</p>
+<h3>Effects &amp; Lighting</h3>
 <p>This category wraps up some of the typical features found in Game Engines: particle systems, sound effects and the relevant scripting making effects <em>affecting</em> the game world. This is also a bit of a crossover task, and you get to play with explosions. Also in the effects category are screen effects, supported by the rendering pipeline used, which is quite the topic of its own.</p>
-<p>The Unity editor may be all the <b>tool</b> you need to get started. Also Unity gives away quite a lot of free-to-use effects we can start with. Building on that, you may need to roam the Net and use some tools of the other disciplines to create you very own uber-effects!</p>
+<p>The Unity editor may be all the tool you need to get started. Also Unity gives away quite a lot of free-to-use effects we can start with. Building on that, you may need to roam the Net and use some tools of the other disciplines to create you very own uber-effects!</p>
+<p>Lighting again is a thing of its own, with quite some renderer support in the case of 2D. There are a lot of tutorials out there on lighting in 2D or 3D, always dependent on the used Render Pipeline.</p>
 <h3>Post processing</h3>
-<p>In Post processing, meaning after the basic rendering of the frame, it is possible to apply further transformations to apply effect or improve style and image quality. Typical tasks are Anti-Aliasing or the Bloom effect. This has to be designed, tuned and tested. From the <b>tooling</b> perspective, the basic effects are available directly in Unity. But it may be possible to churn out some ext</p>
+<p>In Post processing, meaning after the basic rendering of the frame, it is possible to apply further transformations to apply effect or improve style and image quality. Typical tasks are Anti-Aliasing or the Bloom effect. This has to be applied, tuned and tested. From the <b>tooling</b> perspective, the basic effects are available directly in Unity. But it may be possible to churn out some extra stuff with some research, who knows.</p>
 <h3>DevOps</h3>
 <p>If we decide to have, e.g. build automation, common tool configurations (such as for Doxygen in the doc folder), etc. - someone will have to look after that. Someone willing to be the all-important enabler of the whole team. That someone could be you!</p>
-<p>The skills learned/needed here are probably no special to game development, and the <b>tools</b> are manyfold, depending on what the team deems worthy automating.</p>
+<p>The skills learned/needed here are probably no special to game development, and the tools are manyfold, depending on what the team deems worthy automating. Most important though are the <b>GitHub Actions</b> and workflows, which provide e.g. checks on Pull Requests.</p>
 <h3>Testing</h3>
-<p>No time for the other stuff? No worries - we need people that from time to time have a look at the current state and tell us what we f**** up. At pat on the back is also helpful sometimes.</p>
-<p>And then, there is <em>proper</em> testing, including <em>Unit Tests</em>. It may not seem reasonable for the dynamic nature of game scripting code, but it is very well possible and supported by Unity's own set own <b>tools</b>. The scripters will kiss the feet of the guy who tells them how to use those tools. At the very latest when complexity increases and devs become afraid of breaking things accidentally.</p>
+<p>No time for the other stuff? No worries - we need people that from time to time have a look at the current state and tell us what we f**** up. A pat on the back is also helpful sometimes.</p>
+<p>And then, there is <em>proper</em> testing, including <em>Unit Tests</em>. It may not seem reasonable for the dynamic nature of game scripting code, but it is very well possible and supported by Unity's own set of tools. The scripters will kiss the feet of the guy who tells them how to use those tools. At the very latest when complexity increases and devs become afraid of breaking things accidentally.</p>
 <h2>Where to learn more? </h2>
 <p>On this subpage you can get up to speed: <a class="el" href="page_getting_started.html">Getting Started</a></p>
 <p>Luckily, there is an abundance of resources on Unity (and probably on the other topics as well) on the web. You may start with the tutorials present on the Unity website. Or you can take courses on leaning portals, such as Zenva or Udemy. The best way to learn of course is to take part in this project and learn from and with your friends. Most importantly, don't think anyone will look down on you because you are just learning a new thing - this is not Dota after all... (yet).</p>
 <blockquote class="doxtable">
 <p>A special recommendation goes to the <a href="https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA">Brackeys channel</a> on YouTube! </p>
 </blockquote>
-<p>Regarding the project itself, read on, check out the SW Architecture and Components :)</p>
-<p><br />
-</p>
-<p><a class="el" href="index.html">Home</a> </p>
+<p>Regarding the project itself, read on: <a class="el" href="index.html">Home</a> :) </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 17 2020 21:04:57 for Cells by
+    <li class="footer">Generated on Sat Sep 19 2020 17:32:44 for Cells by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>
