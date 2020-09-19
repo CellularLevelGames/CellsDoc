@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vscode_20setup',['VSCode Setup',['../page_vs_code_setup.html',1,'page_tooling']]]
+  ['used_20licenses',['Used Licenses',['../page_used_licenses.html',1,'']]]
 ];

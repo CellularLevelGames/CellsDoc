@@ -3,7 +3,7 @@ var indexSectionsWithContent =
   0: "cghipstuv",
   1: "cps",
   2: "u",
-  3: "ghistv"
+  3: "ghistuv"
 };
 
 var indexSectionNames =
