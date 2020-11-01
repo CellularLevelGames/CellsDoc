@@ -1,5 +1,3 @@
 <map id="SimpleCameraController" name="SimpleCameraController">
-<area shape="rect" id="node1" title=" " alt="" coords="52,292,253,457"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,71,116,149"/>
-<area shape="rect" id="node3" href="$class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.html" title=" " alt="" coords="141,5,351,215"/>
+<area shape="rect" id="node3" href="$class_unity_template_projects_1_1_simple_camera_controller_1_1_camera_state.html" title="{SimpleCameraController.Camera\lState\n|+ yaw\l+ pitch\l+ roll\l+ x\l+ y\l+ z\l|+ SetFromTransform()\l+ Translate()\l+ LerpTowards()\l+ UpdateTransform()\l}" alt="" coords="141,5,351,215"/>
 </map>

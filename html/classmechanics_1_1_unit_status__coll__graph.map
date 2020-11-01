@@ -1,0 +1,5 @@
+<map id="UnitStatus" name="UnitStatus">
+<area shape="rect" id="node3" href="$interfacemechanics_1_1_i_status_holder.html" title="Interface for all Behaviours that shall be able to receive status effects. " alt="" coords="140,279,299,371"/>
+<area shape="rect" id="node4" href="$class_int_attribute.html" title="Variant of an Attribute expecting and returning int values. " alt="" coords="323,286,428,363"/>
+<area shape="rect" id="node5" href="$class_attribute.html" title="{Attribute\n|+ name\l+ baseValue\l+ baseMultiplier\l+ value\l+ isSynced\l&#45; type\l&#45; initBaseValue\l&#45; tempEffects\l|+ AddEffect()\l+ RemoveEffect()\l# Attribute()\l&#45; Recalculate()\l}" alt="" coords="315,5,436,229"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="LeaveRoomState" name="LeaveRoomState">
+<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="325,933,505,1084"/>
+<area shape="rect" id="node3" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="345,189,483,399"/>
+<area shape="rect" id="node5" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="221,461,394,656"/>
+<area shape="rect" id="node10" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="267,705,415,871"/>
+<area shape="rect" id="node7" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="140,255,259,333"/>
+<area shape="rect" id="node9" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="497,5,614,127"/>
+</map>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['unitytemplateprojects',['UnityTemplateProjects',['../namespace_unity_template_projects.html',1,'']]]
+  ['editor',['editor',['../namespaceeditor.html',1,'']]],
+  ['effects',['effects',['../namespaceeffects.html',1,'']]]
 ];

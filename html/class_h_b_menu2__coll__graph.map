@@ -1,0 +1,4 @@
+<map id="HBMenu2" name="HBMenu2">
+<area shape="rect" id="node3" href="$class_player_controller.html" title="{PlayerController\n|+ speed\l&#45; animator\l&#45; rb\l&#45; movement\l&#45; pv\l|&#45; Awake()\l&#45; Update()\l&#45; FixedUpdate()\l}" alt="" coords="98,287,213,452"/>
+<area shape="rect" id="node4" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="141,132,287,224"/>
+</map>

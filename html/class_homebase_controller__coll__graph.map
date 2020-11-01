@@ -1,0 +1,4 @@
+<map id="HomebaseController" name="HomebaseController">
+<area shape="rect" id="node3" href="$class_unit.html" title="{Unit\n|+ buildtime\l+ prefab\l|}" alt="" coords="140,132,227,224"/>
+<area shape="rect" id="node5" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="251,132,398,224"/>
+</map>

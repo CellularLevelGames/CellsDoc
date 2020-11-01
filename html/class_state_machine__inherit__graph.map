@@ -1,0 +1,4 @@
+<map id="StateMachine" name="StateMachine">
+<area shape="rect" id="node3" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="5,425,200,546"/>
+<area shape="rect" id="node4" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="225,403,373,568"/>
+</map>

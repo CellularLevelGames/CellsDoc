@@ -1,0 +1,5 @@
+<map id="INetDataPkg" name="INetDataPkg">
+<area shape="rect" id="node2" href="$structnet_1_1_int_net_data.html" title="Wraps an integer into a data package applicable for use with NetEvent. " alt="" coords="5,145,108,252"/>
+<area shape="rect" id="node3" href="$structnet_1_1_string_net_data.html" title="Wraps a string into a data package applicable for use with NetEvent. " alt="" coords="133,145,255,252"/>
+<area shape="rect" id="node4" href="$structnet_1_1_void_net_data.html" title="Wraps no data, so is used to flag only that a specific NetEvent was invoked. " alt="" coords="280,153,377,245"/>
+</map>

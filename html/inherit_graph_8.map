@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_i_net_data_pkg.html" title="Interface to be used by all datatypes which shall be sent via a net::NetEvent. " alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$structnet_1_1_int_net_data.html" title="Wraps an integer into a data package applicable for use with NetEvent. " alt="" coords="158,5,241,32"/>
+<area shape="rect" id="node3" href="$structnet_1_1_string_net_data.html" title="Wraps a string into a data package applicable for use with NetEvent. " alt="" coords="148,56,251,83"/>
+<area shape="rect" id="node4" href="$structnet_1_1_void_net_data.html" title="Wraps no data, so is used to flag only that a specific NetEvent was invoked. " alt="" coords="152,107,247,133"/>
+</map>

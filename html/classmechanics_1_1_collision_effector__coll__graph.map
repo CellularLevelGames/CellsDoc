@@ -1,0 +1,4 @@
+<map id="CollisionEffector" name="CollisionEffector">
+<area shape="rect" id="node3" href="$class_status_effect.html" title="A general Status Effect which is applied to a Attribute of a Character. " alt="" coords="140,292,253,399"/>
+<area shape="rect" id="node5" href="$class_attribute.html" title="{Attribute\n|+ name\l+ baseValue\l+ baseMultiplier\l+ value\l+ isSynced\l&#45; type\l&#45; initBaseValue\l&#45; tempEffects\l|+ AddEffect()\l+ RemoveEffect()\l# Attribute()\l&#45; Recalculate()\l}" alt="" coords="208,5,329,229"/>
+</map>

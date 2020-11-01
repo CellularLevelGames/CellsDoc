@@ -1,0 +1,4 @@
+<map id="Attribute" name="Attribute">
+<area shape="rect" id="node2" href="$class_float_attribute.html" title="Variant of an Attribute expecting and returning float values. " alt="" coords="5,277,125,355"/>
+<area shape="rect" id="node3" href="$class_int_attribute.html" title="Variant of an Attribute expecting and returning int values. " alt="" coords="150,277,255,355"/>
+</map>

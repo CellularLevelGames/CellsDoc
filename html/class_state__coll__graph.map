@@ -1,0 +1,5 @@
+<map id="State" name="State">
+<area shape="rect" id="node3" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="177,461,350,656"/>
+<area shape="rect" id="node5" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="140,255,259,333"/>
+<area shape="rect" id="node7" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="497,5,614,127"/>
+</map>

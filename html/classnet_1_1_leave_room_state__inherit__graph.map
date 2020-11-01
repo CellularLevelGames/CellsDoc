@@ -1,0 +1,4 @@
+<map id="LeaveRoomState" name="LeaveRoomState">
+<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l# netSM\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="5,417,185,583"/>
+<area shape="rect" id="node3" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="26,131,165,369"/>
+</map>

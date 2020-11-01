@@ -1,0 +1,11 @@
+<map id="NetManager" name="NetManager">
+<area shape="rect" id="node3" href="$classnet_1_1_unity_client_properties_update_event.html" title="{UnityClientPropertiesUpdate\lEvent\n||}" alt="" coords="220,639,405,731"/>
+<area shape="rect" id="node5" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; net.VoidNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="429,544,623,827"/>
+<area shape="rect" id="node6" href="$classnet_1_1_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="915,132,1033,209"/>
+<area shape="rect" id="node9" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="749,272,922,467"/>
+<area shape="rect" id="node8" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="811,603,959,768"/>
+<area shape="rect" id="node11" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="647,581,786,790"/>
+<area shape="rect" id="node13" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="607,309,725,430"/>
+<area shape="rect" id="node14" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; net.IntNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="1035,544,1220,827"/>
+<area shape="rect" id="node15" href="$classnet_1_1_unity_room_properties_update_event.html" title="{UnityRoomPropertiesUpdate\lEvent\n||}" alt="" coords="1245,639,1431,731"/>
+</map>

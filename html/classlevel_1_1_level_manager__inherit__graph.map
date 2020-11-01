@@ -1,0 +1,3 @@
+<map id="LevelManager" name="LevelManager">
+<area shape="rect" id="node2" href="$class_mono_singleton.html" title="{MonoSingleton\&lt; LevelManager \&gt;\n|# instance\l&#45; logEnabled\l|+ Get()\l# LogIfEnabled()\l# MyAwake()\l&#45; Awake()\l}" alt="" coords="5,5,216,141"/>
+</map>

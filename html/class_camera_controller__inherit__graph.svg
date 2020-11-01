@@ -11,11 +11,10 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-244 108,-244 108,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-145.5 104,-145.5 104,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="52" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">CameraController</text>
 <polyline fill="none" stroke="black" points="0,-126.5 104,-126.5 "/>
-<text text-anchor="start" x="8" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ player</text>
+<text text-anchor="start" x="8" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ targetedPlayer</text>
 <text text-anchor="start" x="8" y="-103.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ maxClamp</text>
 <text text-anchor="start" x="8" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ minClamp</text>
 <text text-anchor="start" x="8" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dampingFOV</text>
@@ -26,20 +25,15 @@
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Start()</text>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; Update()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&#45; LateUpdate()</text>
-</a>
-</g>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
-<g id="a_node2"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="10.5,-182.5 10.5,-239.5 93.5,-239.5 93.5,-182.5 10.5,-182.5"/>
 <text text-anchor="middle" x="52" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">MonoBehaviour</text>
 <polyline fill="none" stroke="#bfbfbf" points="10.5,-220.5 93.5,-220.5 "/>
 <text text-anchor="middle" x="52" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
 <polyline fill="none" stroke="#bfbfbf" points="10.5,-201.5 93.5,-201.5 "/>
 <text text-anchor="middle" x="52" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-</a>
-</g>
 </g>
 <!-- Node1&#45;&gt;Node0 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
