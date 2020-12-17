@@ -1,8 +1,9 @@
 <map id="NetOverlayState" name="NetOverlayState">
-<area shape="rect" id="node4" href="$classnet_1_1_connect_to_master_state.html" title="This state is responsible for doing the first step to hosting: connecting to the Photon Master Server..." alt="" coords="5,653,176,759"/>
-<area shape="rect" id="node5" href="$classnet_1_1_disconnected_state.html" title="This network behaviour is reached during startup and whenever a disconnect occurs for whatever reason..." alt="" coords="200,660,363,752"/>
-<area shape="rect" id="node6" href="$classnet_1_1_host_new_room_state.html" title="Responsible for creating and hosting a new room once connected to Master. " alt="" coords="387,631,549,781"/>
-<area shape="rect" id="node7" href="$classnet_1_1_join_room_state.html" title="State for joining an existing room. Needs to be connected to the Master Server of course..." alt="" coords="573,638,736,774"/>
-<area shape="rect" id="node8" href="$classnet_1_1_leave_room_state.html" title="A base behaviour to initialize and return the state&#39;s name. " alt="" coords="760,660,923,752"/>
-<area shape="rect" id="node2" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="399,131,537,369"/>
+<area shape="rect" id="node4" href="$classnet_1_1_connect_to_master_state.html" title="This state is responsible for doing the first step to hosting: connecting to the Photon Master Server..." alt="" coords="5,682,176,789"/>
+<area shape="rect" id="node5" href="$classnet_1_1_disconnected_state.html" title="This network behaviour is reached during startup and whenever a disconnect occurs for whatever reason..." alt="" coords="200,689,363,781"/>
+<area shape="rect" id="node6" href="$classnet_1_1_host_new_room_state.html" title="Responsible for creating and hosting a new room once connected to Master. " alt="" coords="387,660,549,811"/>
+<area shape="rect" id="node7" href="$classnet_1_1_join_room_state.html" title="State for joining an existing room. Needs to be connected to the Master Server of course..." alt="" coords="573,667,736,803"/>
+<area shape="rect" id="node8" href="$classnet_1_1_leave_room_state.html" title="A base behaviour to initialize and return the state&#39;s name. " alt="" coords="760,689,923,781"/>
+<area shape="rect" id="node2" href="$class_state.html" title="Non&#45;template variant of the BaseState, expecting to be owned by a standard StateMachine. " alt="" coords="441,321,495,399"/>
+<area shape="rect" id="node3" href="$class_base_state.html" title="{BaseState\&lt; StateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="375,5,561,273"/>
 </map>

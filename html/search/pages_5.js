@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['networking',['Networking',['../page_networking.html',1,'page_sw_architecture']]]
+  ['multiplayer',['Multiplayer',['../page_multiplayer.html',1,'page_game_design']]]
 ];

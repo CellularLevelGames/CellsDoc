@@ -1,0 +1,4 @@
+<map id="MainPageState" name="MainPageState">
+<area shape="rect" id="node2" href="$class_base_state.html" title="{BaseState\&lt; MainMenuSM \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,5,192,273"/>
+<area shape="rect" id="node3" href="$interfaceui_1_1_i_page_state.html" title="{IPageState\n||+ InterpretInput()\l}" alt="" coords="216,101,333,178"/>
+</map>

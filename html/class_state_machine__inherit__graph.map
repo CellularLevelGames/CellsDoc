@@ -1,4 +1,6 @@
 <map id="StateMachine" name="StateMachine">
-<area shape="rect" id="node3" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="5,425,200,546"/>
-<area shape="rect" id="node4" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="225,403,373,568"/>
+<area shape="rect" id="node3" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="5,491,200,612"/>
+<area shape="rect" id="node4" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="225,469,373,634"/>
+<area shape="rect" id="node5" href="$classui_1_1_main_menu_s_m.html" title="{MainMenuSM\n|+ mainPage\l+ settingsPage\l+ PlayButton\l+ JoinButton\l+ disconnectButton\l|+ InterpretInput()\l# MyAwake()\l}" alt="" coords="397,476,531,627"/>
+<area shape="rect" id="node6" href="$class_unit_ai_state_machine.html" title="{UnitAiStateMachine\n|+ gatherTargetSelector\l+ unit\l+ targetTracker\l+ dynamicMoveTarget\l+ staticMoveTarget\l|+ AttackOrderOn()\l+ AssistOrderOn()\l+ MoveOrderTo()\l+ AttackMoveOrderTo()\l+ GatherOrderOn()\l+ SetFollowTarget()\l+ SetTargetPosition()\l+ SetTargetPosition()\l+ TryToSetAsPickUpTarget()\l# MyAwake()\l}" alt="" coords="555,417,743,685"/>
 </map>

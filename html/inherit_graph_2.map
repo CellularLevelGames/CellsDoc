@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_constants.html" title="Hard&#45;codes and provides access to project constants. " alt="" coords="5,5,87,32"/>
+<area shape="rect" id="node1" href="$interface_i_state.html" title="IState" alt="" coords="57,5,113,32"/>
+<area shape="rect" id="node2" href="$class_base_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="214,5,369,32"/>
+<area shape="rect" id="node4" href="$class_event_on_enter_behaviour.html" title="EventOnEnterBehaviour" alt="" coords="212,56,371,83"/>
+<area shape="rect" id="node5" href="$class_random_transition_state.html" title="Provides a state which triggers a random transition randomly within a time interval. " alt="" coords="213,107,370,133"/>
 </map>

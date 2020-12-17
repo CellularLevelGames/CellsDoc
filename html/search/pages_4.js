@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multiplayer',['Multiplayer',['../page_multiplayer.html',1,'page_game_design']]]
+  ['introduction',['Introduction',['../page_intro.html',1,'']]]
 ];

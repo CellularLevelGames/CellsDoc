@@ -1,4 +1,8 @@
 <map id="HBMenu2" name="HBMenu2">
-<area shape="rect" id="node3" href="$class_player_controller.html" title="{PlayerController\n|+ speed\l&#45; animator\l&#45; rb\l&#45; movement\l&#45; pv\l|&#45; Awake()\l&#45; Update()\l&#45; FixedUpdate()\l}" alt="" coords="98,287,213,452"/>
-<area shape="rect" id="node4" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="141,132,287,224"/>
+<area shape="rect" id="node3" href="$class_player_controller.html" title="{PlayerController\n|+ rigidbodyToControl\l&#45; movement\l|&#45; Awake()\l&#45; Update()\l&#45; FixedUpdate()\l&#45; ReadMovement()\l&#45; ReadAttack()\l}" alt="" coords="83,959,225,1109"/>
+<area shape="rect" id="node4" href="$class_unit.html" title="{Unit\n|+ controlActiveDebugOverride\l+ curMeleeAtkRangeSq\l+ curSpeed\l&#45; curMeleeAtkRange\l&#45; curMeleeAtkDelay\l&#45; curConewidth\l&#45; curMeleeAtkCooldown\l&#45; curAttackSpeed\l&#45; curAttackDamage\l&#45; pv\l&#45; attackAvailable\l|+ TryMeleeAttack()\l+ IsControlActive()\l&#45; Awake()\l&#45; EvalMeleeAttack()\l&#45; AnimateMeleeAttack()\l&#45; HitMeleeAttack()\l}" alt="" coords="146,599,338,896"/>
+<area shape="rect" id="node5" href="$class_unit_sprite_animator.html" title="Triggers the Sprite Animator depending on actual current movement. " alt="" coords="156,205,328,371"/>
+<area shape="rect" id="node6" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="353,132,531,444"/>
+<area shape="rect" id="node8" href="$class_unit_info.html" title="{UnitInfo\n|+ buildtime\l+ prefab\l+ attackRange\l+ attackDamage\l+ hitpoints\l+ attackCooldown\l+ moveSpeed\l+ attackSpeed\l+ speedPenaltyOnAttack\l+ carryStrength\l|}" alt="" coords="555,183,723,393"/>
+<area shape="rect" id="node10" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l+ homeBase\l|}" alt="" coords="646,468,793,575"/>
 </map>

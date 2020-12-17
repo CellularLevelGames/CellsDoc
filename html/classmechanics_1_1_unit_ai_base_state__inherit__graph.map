@@ -1,0 +1,8 @@
+<map id="UnitAiBaseState" name="UnitAiBaseState">
+<area shape="rect" id="node3" href="$classmechanics_1_1_auto_attack_state.html" title="Realizes an &quot;auto attack&quot; behaviour, needed to realize guarding and attack move behaviours described ..." alt="" coords="5,535,144,641"/>
+<area shape="rect" id="node4" href="$classmechanics_1_1_auto_gather_state.html" title="Transitionary state for decision whether and what to gather. " alt="" coords="168,549,307,627"/>
+<area shape="rect" id="node5" href="$classmechanics_1_1_deliver_state.html" title="Implements parts of the Gather behaviour, where the food is picked up, transported and then dropped..." alt="" coords="331,476,477,700"/>
+<area shape="rect" id="node6" href="$classmechanics_1_1_idle_state.html" title="Realizes the &quot;Idle&quot; behaviour of units, for requirements, see Idle concept. " alt="" coords="501,549,640,627"/>
+<area shape="rect" id="node7" href="$classmechanics_1_1_move_state.html" title="Can be used for all kinds of movement. " alt="" coords="664,498,843,678"/>
+<area shape="rect" id="node2" href="$class_base_state.html" title="{BaseState\&lt; UnitAiStateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="293,5,515,273"/>
+</map>

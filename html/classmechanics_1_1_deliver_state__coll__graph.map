@@ -1,0 +1,7 @@
+<map id="DeliverState" name="DeliverState">
+<area shape="rect" id="node2" href="$classmechanics_1_1_unit_ai_base_state.html" title="Offers a base state for Unit AI which can be interrupted by multiple conditions: " alt="" coords="45,536,212,643"/>
+<area shape="rect" id="node3" href="$class_base_state.html" title="{BaseState\&lt; UnitAiStateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,132,228,400"/>
+<area shape="rect" id="node4" href="$classmechanics_1_1_food.html" title="{Food\n|+ value\l+ weight\l+ totalStrengthNeeded\l+ curCarryStrength\l+ carrySlots\l+ destReachedEvent\l&#45; carriers\l|+ ReserveCarry()\l+ PickUp()\l+ Drop()\l+ HasFreeCarrySlot()\l+ IsFirstCarrier()\l+ GetCarrySpeedFactor()\l&#45; UpdateCarryStrengthBy()\l}" alt="" coords="279,463,453,716"/>
+<area shape="rect" id="node6" href="$class_unity_float_event.html" title="{UnityFloatEvent\n||}" alt="" coords="387,227,500,305"/>
+<area shape="rect" id="node8" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l+ homeBase\l|}" alt="" coords="499,536,646,643"/>
+</map>

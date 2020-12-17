@@ -1,6 +1,6 @@
 <map id="NetStateMachine" name="NetStateMachine">
-<area shape="rect" id="node2" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="330,272,503,467"/>
-<area shape="rect" id="node6" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="215,529,354,739"/>
-<area shape="rect" id="node4" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="451,132,569,209"/>
-<area shape="rect" id="node8" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="189,309,306,430"/>
+<area shape="rect" id="node2" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="109,516,282,725"/>
+<area shape="rect" id="node4" href="$interface_i_state.html" title="{IState\n||+ GetName()\l+ GetTriggers()\l+ Init()\l}" alt="" coords="141,347,250,453"/>
+<area shape="rect" id="node5" href="$class_game_string_event.html" title="{GameStringEvent\n||}" alt="" coords="274,361,397,439"/>
+<area shape="rect" id="node6" href="$class_game_event.html" title="{GameEvent\&lt; string \&gt;\n|+ Event\l+ Event\l|+ Invoke()\l+ Invoke()\l+ AddListener()\l+ AddListener()\l+ RemovedListener()\l+ RemoveListener()\l}" alt="" coords="263,132,408,297"/>
 </map>

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classnet_1_1_net_event.html" title="NetEvent\&lt; net.IntNetData \&gt;" alt="" coords="5,5,187,32"/>
+<area shape="rect" id="node1" href="$class_base_state.html" title="BaseState\&lt; MainMenuSM \&gt;" alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$classui_1_1_main_page_state.html" title="Behaviour of the main page of the MainMenuSM, responsible for reacting to button inputs. " alt="" coords="250,5,361,32"/>
+<area shape="rect" id="node3" href="$classui_1_1_settings_page_state.html" title="SettingsPageState" alt="" coords="240,56,371,83"/>
+<area shape="rect" id="node4" href="$interfaceui_1_1_i_page_state.html" title="IPageState" alt="" coords="55,56,142,83"/>
 </map>

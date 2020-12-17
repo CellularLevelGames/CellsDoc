@@ -1,7 +1,7 @@
 <map id="GameStateMachine" name="GameStateMachine">
-<area shape="rect" id="node2" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="330,316,503,511"/>
-<area shape="rect" id="node6" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="225,617,363,827"/>
-<area shape="rect" id="node4" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="427,132,545,209"/>
-<area shape="rect" id="node8" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="189,353,306,474"/>
-<area shape="rect" id="node9" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; StringNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="528,272,713,555"/>
+<area shape="rect" id="node2" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="109,553,282,762"/>
+<area shape="rect" id="node4" href="$interface_i_state.html" title="{IState\n||+ GetName()\l+ GetTriggers()\l+ Init()\l}" alt="" coords="141,347,250,453"/>
+<area shape="rect" id="node5" href="$class_game_string_event.html" title="{GameStringEvent\n||}" alt="" coords="274,361,397,439"/>
+<area shape="rect" id="node6" href="$class_game_event.html" title="{GameEvent\&lt; string \&gt;\n|+ Event\l+ Event\l|+ Invoke()\l+ Invoke()\l+ AddListener()\l+ AddListener()\l+ RemovedListener()\l+ RemoveListener()\l}" alt="" coords="263,132,408,297"/>
+<area shape="rect" id="node8" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; StringNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="307,516,492,799"/>
 </map>

@@ -1,0 +1,15 @@
+<map id="UnitAiStateMachine" name="UnitAiStateMachine">
+<area shape="rect" id="node2" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="884,977,1057,1186"/>
+<area shape="rect" id="node8" href="$class_unit.html" title="{Unit\n|+ controlActiveDebugOverride\l+ curMeleeAtkRangeSq\l+ curSpeed\l&#45; curMeleeAtkRange\l&#45; curMeleeAtkDelay\l&#45; curConewidth\l&#45; curMeleeAtkCooldown\l&#45; curAttackSpeed\l&#45; curAttackDamage\l&#45; pv\l&#45; attackAvailable\l|+ TryMeleeAttack()\l+ IsControlActive()\l&#45; Awake()\l&#45; EvalMeleeAttack()\l&#45; AnimateMeleeAttack()\l&#45; HitMeleeAttack()\l}" alt="" coords="101,507,293,804"/>
+<area shape="rect" id="node9" href="$class_unit_sprite_animator.html" title="Triggers the Sprite Animator depending on actual current movement. " alt="" coords="270,205,442,371"/>
+<area shape="rect" id="node10" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="67,132,245,444"/>
+<area shape="rect" id="node13" href="$classmechanics_1_1_attack_target_tracker.html" title="This is to implement the target selection, as described here: Target Selection. " alt="" coords="297,867,527,1296"/>
+<area shape="rect" id="node16" href="$classmechanics_1_1_food.html" title="{Food\n|+ value\l+ weight\l+ totalStrengthNeeded\l+ curCarryStrength\l+ carrySlots\l+ destReachedEvent\l&#45; carriers\l|+ ReserveCarry()\l+ PickUp()\l+ Drop()\l+ HasFreeCarrySlot()\l+ IsFirstCarrier()\l+ GetCarrySpeedFactor()\l&#45; UpdateCarryStrengthBy()\l}" alt="" coords="769,529,943,782"/>
+<area shape="rect" id="node4" href="$interface_i_state.html" title="{IState\n||+ GetName()\l+ GetTriggers()\l+ Init()\l}" alt="" coords="968,602,1077,709"/>
+<area shape="rect" id="node5" href="$class_game_string_event.html" title="{GameStringEvent\n||}" alt="" coords="1101,617,1224,694"/>
+<area shape="rect" id="node6" href="$class_game_event.html" title="{GameEvent\&lt; string \&gt;\n|+ Event\l+ Event\l|+ Invoke()\l+ Invoke()\l+ AddListener()\l+ AddListener()\l+ RemovedListener()\l+ RemoveListener()\l}" alt="" coords="1022,205,1167,371"/>
+<area shape="rect" id="node12" href="$class_unit_info.html" title="{UnitInfo\n|+ buildtime\l+ prefab\l+ attackRange\l+ attackDamage\l+ hitpoints\l+ attackCooldown\l+ moveSpeed\l+ attackSpeed\l+ speedPenaltyOnAttack\l+ carryStrength\l|}" alt="" coords="517,183,685,393"/>
+<area shape="rect" id="node14" href="$class_game_settings.html" title="Wraps game&#45;wide settings into one asset, modifyable from the editor. " alt="" coords="521,602,693,709"/>
+<area shape="rect" id="node15" href="$classmechanics_1_1_gather_target_selector.html" title="Implements search and selection of a gather target (food). " alt="" coords="551,999,782,1164"/>
+<area shape="rect" id="node17" href="$class_unity_float_event.html" title="{UnityFloatEvent\n||}" alt="" coords="865,249,978,327"/>
+</map>

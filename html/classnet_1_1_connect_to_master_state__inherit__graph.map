@@ -1,4 +1,5 @@
 <map id="ConnectToMasterState" name="ConnectToMasterState">
-<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l# netSM\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="5,417,185,583"/>
-<area shape="rect" id="node3" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="26,131,165,369"/>
+<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l# netSM\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="9,447,189,612"/>
+<area shape="rect" id="node3" href="$class_state.html" title="Non&#45;template variant of the BaseState, expecting to be owned by a standard StateMachine. " alt="" coords="72,321,125,399"/>
+<area shape="rect" id="node4" href="$class_base_state.html" title="{BaseState\&lt; StateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,5,192,273"/>
 </map>

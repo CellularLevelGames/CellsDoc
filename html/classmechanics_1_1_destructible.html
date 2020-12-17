@@ -91,26 +91,31 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmechanics_1_1_destructible__inherit__graph.svg" width="259" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmechanics_1_1_destructible__inherit__graph.svg" width="259" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for Destructible:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmechanics_1_1_destructible__coll__graph.svg" width="259" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmechanics_1_1_destructible__coll__graph.svg" width="259" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a96e0e1639598de03d3b5539a7a89da13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a96e0e1639598de03d3b5539a7a89da13">Hit</a> (int dmg)</td></tr>
-<tr class="memdesc:a96e0e1639598de03d3b5539a7a89da13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given damage and destroys this object if hitpoints reach zero or lower.  <a href="#a96e0e1639598de03d3b5539a7a89da13">More...</a><br /></td></tr>
-<tr class="separator:a96e0e1639598de03d3b5539a7a89da13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83de9f599c59a47cd882e1e4a3fdfb5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a83de9f599c59a47cd882e1e4a3fdfb5e">Hit</a> (float dmg)</td></tr>
+<tr class="memdesc:a83de9f599c59a47cd882e1e4a3fdfb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given damage and destroys this object if hitpoints reach zero or lower.  <a href="#a83de9f599c59a47cd882e1e4a3fdfb5e">More...</a><br /></td></tr>
+<tr class="separator:a83de9f599c59a47cd882e1e4a3fdfb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed968892a37acc82e42dc5631873763a"><td class="memItemLeft" align="right" valign="top"><a id="aed968892a37acc82e42dc5631873763a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsAlive</b> ()</td></tr>
 <tr class="separator:aed968892a37acc82e42dc5631873763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356d66e203e879bdf6de3a5000faf1ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a356d66e203e879bdf6de3a5000faf1ac">IsEnemy</a> (<a class="el" href="classmechanics_1_1_destructible.html">Destructible</a> other)</td></tr>
+<tr class="memdesc:a356d66e203e879bdf6de3a5000faf1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Friend-Foe discrimination: Non-player stuff (Neutral destructibles): Are "IsMine" only on the host, but foes to all players.  <a href="#a356d66e203e879bdf6de3a5000faf1ac">More...</a><br /></td></tr>
+<tr class="separator:a356d66e203e879bdf6de3a5000faf1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20a94b81d6f4b2c62e7b5ae3c0d4621"><td class="memItemLeft" align="right" valign="top"><a id="ac20a94b81d6f4b2c62e7b5ae3c0d4621"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#ac20a94b81d6f4b2c62e7b5ae3c0d4621">IsMine</a> ()</td></tr>
+<tr class="memdesc:ac20a94b81d6f4b2c62e7b5ae3c0d4621"><td class="mdescLeft">&#160;</td><td class="mdescRight">For networking: does this <a class="el" href="classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. ">Destructible</a> belong to this client? <br /></td></tr>
+<tr class="separator:ac20a94b81d6f4b2c62e7b5ae3c0d4621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e32c6f72737452d476ef77cfe52b9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a60e32c6f72737452d476ef77cfe52b9c">OnPhotonSerializeView</a> (PhotonStream stream, PhotonMessageInfo info)</td></tr>
 <tr class="memdesc:a60e32c6f72737452d476ef77cfe52b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Synchronization of hitpoints via Photon.  <a href="#a60e32c6f72737452d476ef77cfe52b9c">More...</a><br /></td></tr>
 <tr class="separator:a60e32c6f72737452d476ef77cfe52b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,17 +125,20 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsAlive</b> ()</td></
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a9807fbd618a817d97ec5dced15cc34da"><td class="memItemLeft" align="right" valign="top"><a id="a9807fbd618a817d97ec5dced15cc34da"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isNeutral</b> = false</td></tr>
+<tr class="separator:a9807fbd618a817d97ec5dced15cc34da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69628b9984765bcc5386cec60ab8314d"><td class="memItemLeft" align="right" valign="top"><a id="a69628b9984765bcc5386cec60ab8314d"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>brokenObjectPrefab</b> = null</td></tr>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>brokenObjectPrefab</b></td></tr>
 <tr class="separator:a69628b9984765bcc5386cec60ab8314d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5d14db52babb2e4224494b3e03c100f"><td class="memItemLeft" align="right" valign="top"><a id="ad5d14db52babb2e4224494b3e03c100f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#ad5d14db52babb2e4224494b3e03c100f">destroyedAfter</a> = 0f</td></tr>
 <tr class="memdesc:ad5d14db52babb2e4224494b3e03c100f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set inf to never destroy. <br /></td></tr>
 <tr class="separator:ad5d14db52babb2e4224494b3e03c100f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f78789365418fdd0e5ee9f068ec1d9f"><td class="memItemLeft" align="right" valign="top"><a id="a8f78789365418fdd0e5ee9f068ec1d9f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a8f78789365418fdd0e5ee9f068ec1d9f">hitpoints</a> = 1</td></tr>
-<tr class="memdesc:a8f78789365418fdd0e5ee9f068ec1d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default &gt;0 so as to not trigger anything on startup. <br /></td></tr>
-<tr class="separator:a8f78789365418fdd0e5ee9f068ec1d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ca46f7a86a92f13335796c03f496ad"><td class="memItemLeft" align="right" valign="top"><a id="a95ca46f7a86a92f13335796c03f496ad"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#a95ca46f7a86a92f13335796c03f496ad">hitpoints</a> = 1</td></tr>
+<tr class="memdesc:a95ca46f7a86a92f13335796c03f496ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default &gt;0 so as to not trigger anything on startup. <br /></td></tr>
+<tr class="separator:a95ca46f7a86a92f13335796c03f496ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5bad216eac9aefc703a450d3163e542"><td class="memItemLeft" align="right" valign="top"><a id="af5bad216eac9aefc703a450d3163e542"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmechanics_1_1_destructible.html#af5bad216eac9aefc703a450d3163e542">sync</a> = false</td></tr>
 <tr class="memdesc:af5bad216eac9aefc703a450d3163e542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction happens only at owner and debris transforms are synced. <br /></td></tr>
@@ -138,6 +146,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:af6dca5030ad4a7885e49631803e78db6"><td class="memItemLeft" align="right" valign="top"><a id="af6dca5030ad4a7885e49631803e78db6"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>destroyedEvent</b></td></tr>
 <tr class="separator:af6dca5030ad4a7885e49631803e78db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f75efd86150ad31bea82c7bcc7f7bd"><td class="memItemLeft" align="right" valign="top"><a id="a74f75efd86150ad31bea82c7bcc7f7bd"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>dmgReceivedEvent</b></td></tr>
+<tr class="separator:a74f75efd86150ad31bea82c7bcc7f7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -162,9 +173,9 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Destructibles have hit points and are affected by damage sources. </p>
-<p>They break and their parts can be thrown by the damage source when their HP reach zero. Needs a PhotonView if syncing is active! </p>
+<p>They break and their parts can be thrown by the damage source when their HP reach zero. Needs a PhotonView if syncing is active! </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>is the sync feature still needed? </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00013">13</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00014">14</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a17a17c66425202fbf56fae2f64a1d345"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17a17c66425202fbf56fae2f64a1d345">&#9670;&nbsp;</a></span>Break()</h2>
@@ -192,12 +203,12 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 <p>The Break function returns a list of GOs which represent the broken parts of the object this script is attached to. </p>
 <p>Set a different 'broken' version of the model in the 'brokenObjectPrefab' slot. The script will find all children having a SpriteRenderer, i.e. are actually displayable GOs. All parts are expected to have suitably weighted rigidbodies attached, which may be disabled though. This method uses the 'Yield' syntax to return list elements as iterator bit by bit. </p>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00116">116</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00143">143</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 
 </div>
 </div>
-<a id="a96e0e1639598de03d3b5539a7a89da13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96e0e1639598de03d3b5539a7a89da13">&#9670;&nbsp;</a></span>Hit()</h2>
+<a id="a83de9f599c59a47cd882e1e4a3fdfb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83de9f599c59a47cd882e1e4a3fdfb5e">&#9670;&nbsp;</a></span>Hit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +219,7 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
         <tr>
           <td class="memname">void Hit </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>dmg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -223,7 +234,39 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 <p>Applies the given damage and destroys this object if hitpoints reach zero or lower. </p>
 <p>For synced destruction, this happens only on the owning client. </p>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00046">46</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00053">53</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+
+</div>
+</div>
+<a id="a356d66e203e879bdf6de3a5000faf1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a356d66e203e879bdf6de3a5000faf1ac">&#9670;&nbsp;</a></span>IsEnemy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsEnemy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmechanics_1_1_destructible.html">Destructible</a>&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Friend-Foe discrimination: Non-player stuff (Neutral destructibles): Are "IsMine" only on the host, but foes to all players. </p>
+<p>Friendlies to other neutrals.</p>
+<p><a class="el" href="class_player.html">Player</a> stuff: foes to each other and to neutrals </p>
+
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00086">86</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 
 </div>
 </div>
@@ -253,7 +296,7 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 <p>This RPC is sent to each client version of this GO to break and remove it. </p>
 <p>It is necessary to have a common destruction effect. </p>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00095">95</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00122">122</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 
 </div>
 </div>
@@ -294,7 +337,7 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 <p>Synchronization of hitpoints via Photon. </p>
 <p>Each value has to be serializable and is written and read to/from the stream in sequence. The data is transferred unreliable and should thus not be used to trigger any game mechanics, only visuals! </p>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00078">78</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00105">105</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 
 </div>
 </div>
@@ -324,9 +367,9 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 
 <p>Activates Physics for the piece and applies the damage force. </p>
 <p>For synced destruction, pieces receive a photon transform view! </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>: Force adding to pieces. BomberUnits used the a complex damage type to receive and use the force of the damage here. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>: Force adding to pieces. BomberUnits used the a complex damage type to receive and use the force of the damage here. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00132">132</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_destructible_8cs_source.html#l00159">159</a> of file <a class="el" href="_destructible_8cs_source.html">Destructible.cs</a>.</p>
 
 </div>
 </div>
@@ -342,7 +385,7 @@ PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>potentialPhoton
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 1 2020 11:31:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 17 2020 08:27:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

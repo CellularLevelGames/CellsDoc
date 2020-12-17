@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../class_state.html#ac5a91fc09e22a791ce7bf790e1d3076a',1,'State']]],
+  ['name',['name',['../class_base_state.html#ac5a91fc09e22a791ce7bf790e1d3076a',1,'BaseState']]],
   ['net',['net',['../namespacenet.html',1,'']]],
   ['netadapter',['NetAdapter',['../classnet_1_1_net_adapter.html',1,'net']]],
   ['netevent',['NetEvent',['../classnet_1_1_net_event.html',1,'NetEvent&lt; NetDataType &gt;'],['../classnet_1_1_net_event.html#a36391e9611c2bee368bcb84671009dd6',1,'net.NetEvent.NetEvent(Target target=Target.All, bool reliable=true, bool cachedForRoom=false)'],['../classnet_1_1_net_event.html#a2e2686c40732e97f974d3cb07d763705',1,'net.NetEvent.NetEvent(NetDataType defaultData, Target target=Target.All, bool reliable=true, bool cachedForRoom=false)']]],
@@ -13,5 +13,6 @@ var searchData=
   ['netoverlaystate',['NetOverlayState',['../classnet_1_1_net_overlay_state.html',1,'net']]],
   ['netsm',['netSM',['../classnet_1_1_net_overlay_state.html#a42927e3a2072f0dc7230fcd013132690',1,'net::NetOverlayState']]],
   ['netstatemachine',['NetStateMachine',['../classnet_1_1_net_state_machine.html',1,'net']]],
+  ['notes',['Notes',['../class_notes.html',1,'']]],
   ['networking',['Networking',['../page_networking.html',1,'page_sw_architecture']]]
 ];

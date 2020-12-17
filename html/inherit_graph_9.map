@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_listener.html" title="Helper class wrapping event and callback in one object, which can be activated and deactivated..." alt="" coords="5,5,73,32"/>
+<area shape="rect" id="node2" href="$class_game_event.html" title="GameEvent\&lt; DataType \&gt;" alt="" coords="172,5,340,32"/>
+<area shape="rect" id="node3" href="$class_game_event.html" title="GameEvent\&lt; string \&gt;" alt="" coords="183,56,329,83"/>
+<area shape="rect" id="node5" href="$class_game_settings.html" title="Wraps game&#45;wide settings into one asset, modifyable from the editor. " alt="" coords="203,107,309,133"/>
+<area shape="rect" id="node6" href="$classlevel_1_1_level.html" title="Wraps info on each level to be accessed before the level is actually loaded. " alt="" coords="231,157,281,184"/>
+<area shape="rect" id="node7" href="$class_player.html" title="Player" alt="" coords="227,208,285,235"/>
+<area shape="rect" id="node8" href="$class_status_effect.html" title="A general Status Effect which is applied to a Attribute of a Character. " alt="" coords="209,259,303,285"/>
+<area shape="rect" id="node9" href="$class_unit_info.html" title="UnitInfo" alt="" coords="223,309,289,336"/>
+<area shape="rect" id="node4" href="$class_game_string_event.html" title="GameStringEvent" alt="" coords="388,56,511,83"/>
 </map>

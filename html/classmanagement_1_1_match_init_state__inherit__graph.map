@@ -1,3 +1,4 @@
 <map id="MatchInitState" name="MatchInitState">
-<area shape="rect" id="node2" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="25,131,164,369"/>
+<area shape="rect" id="node2" href="$class_state.html" title="Non&#45;template variant of the BaseState, expecting to be owned by a standard StateMachine. " alt="" coords="72,321,125,399"/>
+<area shape="rect" id="node3" href="$class_base_state.html" title="{BaseState\&lt; StateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,5,192,273"/>
 </map>

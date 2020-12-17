@@ -1,3 +1,3 @@
 <map id="CameraController" name="CameraController">
-<area shape="rect" id="node3" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="141,132,287,224"/>
+<area shape="rect" id="node3" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l+ homeBase\l|}" alt="" coords="141,132,287,239"/>
 </map>

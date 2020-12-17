@@ -1,16 +1,28 @@
 var searchData=
 [
   ['mainmenu',['mainmenu',['../namespaceui_1_1mainmenu.html',1,'ui']]],
+  ['unit_20ai',['Unit AI',['../page_unit_ai.html',1,'page_game_design']]],
+  ['unit_20ai_20implementation',['Unit AI Implementation',['../page_unit_ai_impl.html',1,'page_sw_architecture']]],
+  ['unit_20concept',['Unit Concept',['../page_unit_concept.html',1,'']]],
   ['used_20licenses',['Used Licenses',['../page_used_licenses.html',1,'']]],
   ['ui',['ui',['../namespaceui.html',1,'']]],
   ['uids',['UIDs',['../class_helpers.html#adc20a9515e2a4bad8e19c6837fbcc61b',1,'Helpers']]],
-  ['unit',['Unit',['../class_unit.html',1,'']]],
+  ['unit',['Unit',['../class_unit.html',1,'Unit'],['../class_homebase_controller.html#a6f6b99879310f4663a1682aa52754f19',1,'HomebaseController.unit()'],['../class_unit_ai_state_machine.html#aaa0d61fcdf7a0b9f0f2b48c9946cbd10',1,'UnitAiStateMachine.unit()']]],
+  ['unitaibasestate',['UnitAiBaseState',['../classmechanics_1_1_unit_ai_base_state.html',1,'mechanics']]],
+  ['unitaistatemachine',['UnitAiStateMachine',['../class_unit_ai_state_machine.html',1,'']]],
+  ['unitguardrange',['unitGuardRange',['../class_game_settings.html#a764da22bbd030092f8de2b38dba7d08f',1,'GameSettings']]],
+  ['unitinfo',['UnitInfo',['../class_unit_info.html',1,'']]],
+  ['unitspriteanimator',['UnitSpriteAnimator',['../class_unit_sprite_animator.html',1,'']]],
   ['unitstatus',['UnitStatus',['../classmechanics_1_1_unit_status.html',1,'mechanics']]],
+  ['unittargetupdateinterval',['unitTargetUpdateInterval',['../class_game_settings.html#ae4d2daacffd82282742c14f4d3baa0f5',1,'GameSettings']]],
   ['unityclientpropertiesupdateevent',['UnityClientPropertiesUpdateEvent',['../classnet_1_1_unity_client_properties_update_event.html',1,'net']]],
   ['unityeventwithcusttype',['UnityEventWithCustType',['../classnet_1_1_net_event_1_1_unity_event_with_cust_type.html',1,'net::NetEvent']]],
   ['unityfloatevent',['UnityFloatEvent',['../class_unity_float_event.html',1,'']]],
   ['unityroompropertiesupdateevent',['UnityRoomPropertiesUpdateEvent',['../classnet_1_1_unity_room_properties_update_event.html',1,'net']]],
-  ['unitystringevent',['UnityStringEvent',['../class_unity_string_event.html',1,'UnityStringEvent'],['../classnet_1_1_unity_string_event.html',1,'UnityStringEvent']]],
+  ['unitystringevent',['UnityStringEvent',['../classnet_1_1_unity_string_event.html',1,'UnityStringEvent'],['../class_unity_string_event.html',1,'UnityStringEvent']]],
   ['unitytemplateprojects',['UnityTemplateProjects',['../namespace_unity_template_projects.html',1,'']]],
-  ['unsetsceneloadedflagonallclients',['UnsetSceneLoadedFlagOnAllClients',['../classnet_1_1_net_adapter.html#aeb7070c331ede74248c8a85c543c9dcd',1,'net::NetAdapter']]]
+  ['unsetsceneloadedflagonallclients',['UnsetSceneLoadedFlagOnAllClients',['../classnet_1_1_net_adapter.html#aeb7070c331ede74248c8a85c543c9dcd',1,'net::NetAdapter']]],
+  ['updatecurrenttarget',['UpdateCurrentTarget',['../classmechanics_1_1_attack_target_tracker.html#a94706d81fb03dd01e5ced133b5359d4f',1,'mechanics::AttackTargetTracker']]],
+  ['updatetargetcoroutine',['UpdateTargetCoroutine',['../classmechanics_1_1_attack_target_tracker.html#a72c0339318b21569be88316b2773bab1',1,'mechanics::AttackTargetTracker']]],
+  ['updatetrackedvelocity',['UpdateTrackedVelocity',['../class_unit_sprite_animator.html#aedccc92b7a48ce1294228a93377b5941',1,'UnitSpriteAnimator']]]
 ];

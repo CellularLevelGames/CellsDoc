@@ -1,0 +1,4 @@
+<map id="AutoAttackState" name="AutoAttackState">
+<area shape="rect" id="node2" href="$classmechanics_1_1_unit_ai_base_state.html" title="Offers a base state for Unit AI which can be interrupted by multiple conditions: " alt="" coords="33,321,200,428"/>
+<area shape="rect" id="node3" href="$class_base_state.html" title="{BaseState\&lt; UnitAiStateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,5,228,273"/>
+</map>

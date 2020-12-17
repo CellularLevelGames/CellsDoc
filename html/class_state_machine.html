@@ -89,46 +89,50 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_state_machine__inherit__graph.svg" width="379" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_state_machine__inherit__graph.svg" width="750" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for StateMachine:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_state_machine__coll__graph.svg" width="604" height="744"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_state_machine__coll__graph.svg" width="414" height="731"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab807f70baebac154b672fe7f6d1c9700"><td class="memItemLeft" align="right" valign="top"><a id="ab807f70baebac154b672fe7f6d1c9700"></a>
-<a class="el" href="class_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#ab807f70baebac154b672fe7f6d1c9700">GetActiveState</a> ()</td></tr>
-<tr class="memdesc:ab807f70baebac154b672fe7f6d1c9700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the currently active state. <br /></td></tr>
-<tr class="separator:ab807f70baebac154b672fe7f6d1c9700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad045818cab136ce067c989ee2c6e7347"><td class="memItemLeft" align="right" valign="top"><a id="ad045818cab136ce067c989ee2c6e7347"></a>
+<a class="el" href="interface_i_state.html">IState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#ad045818cab136ce067c989ee2c6e7347">GetActiveState</a> ()</td></tr>
+<tr class="memdesc:ad045818cab136ce067c989ee2c6e7347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the currently active state. <br /></td></tr>
+<tr class="separator:ad045818cab136ce067c989ee2c6e7347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3817a443de9c6cedbb893e5ed1cc14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#ac3817a443de9c6cedbb893e5ed1cc14d">TriggerTransition</a> (string transName)</td></tr>
 <tr class="memdesc:ac3817a443de9c6cedbb893e5ed1cc14d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload to enable external transition triggering from current state.  <a href="#ac3817a443de9c6cedbb893e5ed1cc14d">More...</a><br /></td></tr>
 <tr class="separator:ac3817a443de9c6cedbb893e5ed1cc14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2521da2913ca168715298da5636dd16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#af2521da2913ca168715298da5636dd16">TriggerTransition</a> (string fromState, string transName)</td></tr>
 <tr class="memdesc:af2521da2913ca168715298da5636dd16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload to enable external transition triggering using state and transition names.  <a href="#af2521da2913ca168715298da5636dd16">More...</a><br /></td></tr>
 <tr class="separator:af2521da2913ca168715298da5636dd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057456089aadf240c40b4dbf724495f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a057456089aadf240c40b4dbf724495f7">TriggerTransition</a> (<a class="el" href="class_state.html">State</a> fromState, string transName)</td></tr>
-<tr class="memdesc:a057456089aadf240c40b4dbf724495f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to execute the given transition.  <a href="#a057456089aadf240c40b4dbf724495f7">More...</a><br /></td></tr>
-<tr class="separator:a057456089aadf240c40b4dbf724495f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae04405fc4220475c9c6e5e82eeefd4af"><td class="memItemLeft" align="right" valign="top"><a id="ae04405fc4220475c9c6e5e82eeefd4af"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#ae04405fc4220475c9c6e5e82eeefd4af">AnnounceCurrentState</a> (<a class="el" href="class_state.html">State</a> stateRef)</td></tr>
-<tr class="memdesc:ae04405fc4220475c9c6e5e82eeefd4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by all States to announce themselves as currently active state when entered. <br /></td></tr>
-<tr class="separator:ae04405fc4220475c9c6e5e82eeefd4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7f13b7ae201f8aa3cbe263aa3f4e29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#aca7f13b7ae201f8aa3cbe263aa3f4e29">TriggerTransition</a> (<a class="el" href="interface_i_state.html">IState</a> fromState, string transName)</td></tr>
+<tr class="memdesc:aca7f13b7ae201f8aa3cbe263aa3f4e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to execute the given transition.  <a href="#aca7f13b7ae201f8aa3cbe263aa3f4e29">More...</a><br /></td></tr>
+<tr class="separator:aca7f13b7ae201f8aa3cbe263aa3f4e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2efbebf1f40bec74090d7d0b6b8f47c"><td class="memItemLeft" align="right" valign="top"><a id="ad2efbebf1f40bec74090d7d0b6b8f47c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#ad2efbebf1f40bec74090d7d0b6b8f47c">AnnounceCurrentState</a> (<a class="el" href="interface_i_state.html">IState</a> stateRef)</td></tr>
+<tr class="memdesc:ad2efbebf1f40bec74090d7d0b6b8f47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by all States to announce themselves as currently active state when entered. <br /></td></tr>
+<tr class="separator:ad2efbebf1f40bec74090d7d0b6b8f47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a18400c2baf794b578451bb2b1fb0fb7e"><td class="memItemLeft" align="right" valign="top"><a id="a18400c2baf794b578451bb2b1fb0fb7e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>logEnabled</b></td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a18400c2baf794b578451bb2b1fb0fb7e">logEnabled</a></td></tr>
+<tr class="memdesc:a18400c2baf794b578451bb2b1fb0fb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints additional information while the SM runs. <br /></td></tr>
 <tr class="separator:a18400c2baf794b578451bb2b1fb0fb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1117632e94e26fe6d45606f71d00137"><td class="memItemLeft" align="right" valign="top"><a id="aa1117632e94e26fe6d45606f71d00137"></a>
-<a class="el" href="class_unity_string_event.html">UnityStringEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><b>stateEnteredEvent</b></td></tr>
-<tr class="separator:aa1117632e94e26fe6d45606f71d00137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12cfcd67d5e73d996c7e0c20cd929724"><td class="memItemLeft" align="right" valign="top"><a id="a12cfcd67d5e73d996c7e0c20cd929724"></a>
+<a class="el" href="class_game_string_event.html">GameStringEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a12cfcd67d5e73d996c7e0c20cd929724">stateEnteredEvent</a></td></tr>
+<tr class="memdesc:a12cfcd67d5e73d996c7e0c20cd929724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect a <a class="el" href="class_game_event.html">GameEvent</a> asset here to transmit events. <br /></td></tr>
+<tr class="separator:a12cfcd67d5e73d996c7e0c20cd929724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f695e9dd2aa15b74c5e07671203cb2"><td class="memItemLeft" align="right" valign="top"><a id="aa7f695e9dd2aa15b74c5e07671203cb2"></a>
+List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#aa7f695e9dd2aa15b74c5e07671203cb2">globalValidTriggers</a></td></tr>
+<tr class="memdesc:aa7f695e9dd2aa15b74c5e07671203cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow these transitions to be set from any state. <br /></td></tr>
+<tr class="separator:aa7f695e9dd2aa15b74c5e07671203cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -139,10 +143,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:adcdf89b3a7bbf31a537ff156403af798"><td class="memItemLeft" align="right" valign="top"><a id="adcdf89b3a7bbf31a537ff156403af798"></a>
-<a class="el" href="class_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#adcdf89b3a7bbf31a537ff156403af798">activeState</a> = null</td></tr>
-<tr class="memdesc:adcdf89b3a7bbf31a537ff156403af798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a reference to the current active state. <br /></td></tr>
-<tr class="separator:adcdf89b3a7bbf31a537ff156403af798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc159807a18262b1b5d6bdd55cef182"><td class="memItemLeft" align="right" valign="top"><a id="aedc159807a18262b1b5d6bdd55cef182"></a>
+<a class="el" href="interface_i_state.html">IState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#aedc159807a18262b1b5d6bdd55cef182">activeState</a> = null</td></tr>
+<tr class="memdesc:aedc159807a18262b1b5d6bdd55cef182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds ref to the current active state. <br /></td></tr>
+<tr class="separator:aedc159807a18262b1b5d6bdd55cef182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14be8540c39e8ff0ab7639c2608e7966"><td class="memItemLeft" align="right" valign="top"><a id="a14be8540c39e8ff0ab7639c2608e7966"></a>
 Animator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a14be8540c39e8ff0ab7639c2608e7966">controller</a> = null</td></tr>
 <tr class="memdesc:a14be8540c39e8ff0ab7639c2608e7966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the Unity (Animation) mechanism for SM design. <br /></td></tr>
@@ -156,10 +160,10 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1ccf23cabed27f8d474f81a6c4513f7d"><td class="memItemLeft" align="right" valign="top"><a id="a1ccf23cabed27f8d474f81a6c4513f7d"></a>
-List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a1ccf23cabed27f8d474f81a6c4513f7d">states</a> = new List&lt;<a class="el" href="class_state.html">State</a>&gt;()</td></tr>
-<tr class="memdesc:a1ccf23cabed27f8d474f81a6c4513f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of available states within this SM. <br /></td></tr>
-<tr class="separator:a1ccf23cabed27f8d474f81a6c4513f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b601586165e1772cc53ed0a00d7c7ed"><td class="memItemLeft" align="right" valign="top"><a id="a5b601586165e1772cc53ed0a00d7c7ed"></a>
+List&lt; <a class="el" href="interface_i_state.html">IState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state_machine.html#a5b601586165e1772cc53ed0a00d7c7ed">states</a> = new List&lt;<a class="el" href="interface_i_state.html">IState</a>&gt;()</td></tr>
+<tr class="memdesc:a5b601586165e1772cc53ed0a00d7c7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of available states within this SM. <br /></td></tr>
+<tr class="separator:a5b601586165e1772cc53ed0a00d7c7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Common Base class for all state machines. </p>
@@ -193,7 +197,7 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
 <p>Callback is used to provide the references between SM and States. </p>
 <p>A replacing '<a class="el" href="class_state_machine.html#acb1840dd4f863da32e45e3e0acac2ef1" title="Override to provide an extended Start function for subclasses. Do not override &#39;Awake()&#39; itself! ...">MyAwake()</a>' function is provided! </p>
 
-<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00096">96</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00102">102</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
 
 </div>
 </div>
@@ -224,7 +228,7 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
 <p>Overload to enable external transition triggering from current state. </p>
 <p>Use with care, as having to explicitly give the state to transition from is safer! </p>
 
-<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00034">34</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00036">36</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
 
 </div>
 </div>
@@ -265,12 +269,12 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
 <p>Overload to enable external transition triggering using state and transition names. </p>
 <p>Checks whether the given state name exists. </p>
 
-<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00041">41</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00043">43</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
 
 </div>
 </div>
-<a id="a057456089aadf240c40b4dbf724495f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057456089aadf240c40b4dbf724495f7">&#9670;&nbsp;</a></span>TriggerTransition() <span class="overload">[3/3]</span></h2>
+<a id="aca7f13b7ae201f8aa3cbe263aa3f4e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca7f13b7ae201f8aa3cbe263aa3f4e29">&#9670;&nbsp;</a></span>TriggerTransition() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +285,7 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
         <tr>
           <td class="memname">void TriggerTransition </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_state.html">State</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="interface_i_state.html">IState</a>&#160;</td>
           <td class="paramname"><em>fromState</em>, </td>
         </tr>
         <tr>
@@ -306,7 +310,7 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
 <p>Attempts to execute the given transition. </p>
 <p>Will throw a warning and abort if the transition is not applicable for the given state, or the state is not the currently active state. </p>
 
-<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00056">56</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_state_machine_8cs_source.html#l00058">58</a> of file <a class="el" href="_state_machine_8cs_source.html">StateMachine.cs</a>.</p>
 
 </div>
 </div>
@@ -322,7 +326,7 @@ List&lt; <a class="el" href="class_state.html">State</a> &gt;&#160;</td><td clas
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 1 2020 11:31:49 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 17 2020 08:27:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

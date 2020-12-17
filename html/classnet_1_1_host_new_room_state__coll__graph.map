@@ -1,9 +1,11 @@
 <map id="HostNewRoomState" name="HostNewRoomState">
-<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="293,933,473,1084"/>
-<area shape="rect" id="node3" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="345,189,483,399"/>
-<area shape="rect" id="node5" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="221,461,394,656"/>
-<area shape="rect" id="node10" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="265,705,413,871"/>
-<area shape="rect" id="node7" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="140,255,259,333"/>
-<area shape="rect" id="node9" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="497,5,614,127"/>
-<area shape="rect" id="node11" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="498,963,645,1055"/>
+<area shape="rect" id="node2" href="$classnet_1_1_net_overlay_state.html" title="{NetOverlayState\n|# netOverlayRef\l&#45; minVisibleTime\l&#45; timestampOfStateEntered\l|# TriggerTransitionWithMin\lVisibleTime()\l# OnOverlayStateEnter()\l# OnMyStateEnter()\l}" alt="" coords="213,1180,393,1331"/>
+<area shape="rect" id="node3" href="$class_state.html" title="Non&#45;template variant of the BaseState, expecting to be owned by a standard StateMachine. " alt="" coords="111,996,164,1073"/>
+<area shape="rect" id="node4" href="$class_base_state.html" title="{BaseState\&lt; StateMachine \&gt;\n|+ name\l+ triggers\l# sm\l&#45; listeners\l|+ IsActiveState()\l+ GetName()\l+ GetTriggers()\l+ Init()\l+ OnStateEnter()\l+ OnStateExit()\l# AddAutoListener()\l# TriggerTransition()\l# OnMyStateEnter()\l# OnMyStateExit()\l# OnMyStateInit()\l}" alt="" coords="5,621,192,889"/>
+<area shape="rect" id="node5" href="$classnet_1_1_net_state_machine.html" title="{NetStateMachine\n|+ netOverlayPrefab\l&#45; netOverlayInstance\l|+ IsMaster()\l+ GetCurStateName()\l+ GetNetOverlay()\l+ HideNetOverlay()\l# MyAwake()\l&#45; OnDisconnect()\l}" alt="" coords="229,952,377,1117"/>
+<area shape="rect" id="node6" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="216,651,389,860"/>
+<area shape="rect" id="node8" href="$interface_i_state.html" title="{IState\n||+ GetName()\l+ GetTriggers()\l+ Init()\l}" alt="" coords="216,452,325,559"/>
+<area shape="rect" id="node9" href="$class_game_string_event.html" title="{GameStringEvent\n||}" alt="" coords="349,467,472,544"/>
+<area shape="rect" id="node10" href="$class_game_event.html" title="{GameEvent\&lt; string \&gt;\n|+ Event\l+ Event\l|+ Invoke()\l+ Invoke()\l+ AddListener()\l+ AddListener()\l+ RemovedListener()\l+ RemoveListener()\l}" alt="" coords="338,132,483,297"/>
+<area shape="rect" id="node12" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l+ homeBase\l|}" alt="" coords="447,321,593,428"/>
 </map>

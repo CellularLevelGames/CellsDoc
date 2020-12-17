@@ -1,2 +1,5 @@
 <map id="Unit" name="Unit">
+<area shape="rect" id="node3" href="$class_unit_sprite_animator.html" title="Triggers the Sprite Animator depending on actual current movement. " alt="" coords="59,205,231,371"/>
+<area shape="rect" id="node4" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="255,132,434,444"/>
+<area shape="rect" id="node6" href="$class_unit_info.html" title="{UnitInfo\n|+ buildtime\l+ prefab\l+ attackRange\l+ attackDamage\l+ hitpoints\l+ attackCooldown\l+ moveSpeed\l+ attackSpeed\l+ speedPenaltyOnAttack\l+ carryStrength\l|}" alt="" coords="458,183,626,393"/>
 </map>

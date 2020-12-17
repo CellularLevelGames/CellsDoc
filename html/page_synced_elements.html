@@ -78,7 +78,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1>Synced Elements </h1>
-<h2>Game <a class="el" href="class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. ">State</a> </h2>
+<h2>Game <a class="el" href="class_state.html" title="Non-template variant of the BaseState, expecting to be owned by a standard StateMachine. ">State</a> </h2>
 <p>The basic game state and behaviour is visible from and steered by the GameStateMachine. In some situations the SM needs to be advanced in sync, for which a <a class="el" href="classnet_1_1_net_event.html" title="This is a convenience wrapper for Photons networked event system. ">net::NetEvent</a> has been added to the <a class="el" href="classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in-game...">management::GameStateMachine</a>. The NetEvents carries the Transition name information and is listened to by the SM itself to trigger the transition on each client.</p>
 <h2>Scene Loading </h2>
 <p>Scene loading is synced automatically by an according setting for Photon. It makes all clients transition to the same scene the master is loading. It has to be ensured though, that all clients have finished loading the scene before further scripts are executed. For this, a "SceneLoaded" property was added to the client properties table, which is kept in sync by photon. The master resets this flag to 'false' for all clients and these set it to 'true' once they have finished their loading. The <a class="el" href="classlevel_1_1_level_manager.html">level::LevelManager</a> monitors these flags and raises an event once they are 'true' for all clients.</p>
@@ -88,7 +88,14 @@ $(function() {
 <p>Instantiation of course requires a PhotonView on the player prefab, but that is needed for synchronization anyway.</p>
 <h2><a class="el" href="class_player.html">Player</a> Character movement and animation </h2>
 <p>Currently, the default PhotonView components are used to sync the position as well as certain parameters of the animator to sync animation state transitions.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>To reduce network load, we should only sync the rigidbody speed and completely base animation on monitoring the current speed instead of setting parameters according to the current input. This would make animations synced automatically without additional transmissions (apart from rigidbody states). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>To reduce network load, we should only sync the rigidbody speed and completely base animation on monitoring the current speed instead of setting parameters according to the current input. This would make animations synced automatically without additional transmissions (apart from rigidbody states).</dd></dl>
+<h2><a class="el" href="class_unit.html">Unit</a> Attacks and Damage </h2>
+<p>To enable dodging, the hit registration should be done on the client owning the hit unit. For this:</p>
+<ul>
+<li>Attack animation is triggered on all clients via RPC</li>
+<li>Upon the instance of damage, the animation calls a callback on each client</li>
+<li>Every client checks, whether one/multiple of their units are hit by the attack and applies damage. </li>
+</ul>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -98,7 +105,7 @@ $(function() {
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 1 2020 11:31:49 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 17 2020 08:27:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

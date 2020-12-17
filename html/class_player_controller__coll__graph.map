@@ -1,3 +1,7 @@
 <map id="PlayerController" name="PlayerController">
-<area shape="rect" id="node3" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l|}" alt="" coords="141,132,287,224"/>
+<area shape="rect" id="node3" href="$class_unit.html" title="{Unit\n|+ controlActiveDebugOverride\l+ curMeleeAtkRangeSq\l+ curSpeed\l&#45; curMeleeAtkRange\l&#45; curMeleeAtkDelay\l&#45; curConewidth\l&#45; curMeleeAtkCooldown\l&#45; curAttackSpeed\l&#45; curAttackDamage\l&#45; pv\l&#45; attackAvailable\l|+ TryMeleeAttack()\l+ IsControlActive()\l&#45; Awake()\l&#45; EvalMeleeAttack()\l&#45; AnimateMeleeAttack()\l&#45; HitMeleeAttack()\l}" alt="" coords="133,599,325,896"/>
+<area shape="rect" id="node4" href="$class_unit_sprite_animator.html" title="Triggers the Sprite Animator depending on actual current movement. " alt="" coords="81,205,253,371"/>
+<area shape="rect" id="node5" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="278,132,457,444"/>
+<area shape="rect" id="node7" href="$class_unit_info.html" title="{UnitInfo\n|+ buildtime\l+ prefab\l+ attackRange\l+ attackDamage\l+ hitpoints\l+ attackCooldown\l+ moveSpeed\l+ attackSpeed\l+ speedPenaltyOnAttack\l+ carryStrength\l|}" alt="" coords="481,183,649,393"/>
+<area shape="rect" id="node9" href="$class_player.html" title="{Player\n|+ nickName\l+ curPlayerReference\l+ homeBase\l|}" alt="" coords="591,468,738,575"/>
 </map>

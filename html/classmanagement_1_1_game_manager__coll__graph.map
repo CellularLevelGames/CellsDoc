@@ -1,9 +1,9 @@
 <map id="GameManager" name="GameManager">
-<area shape="rect" id="node2" href="$class_mono_singleton.html" title="{MonoSingleton\&lt; GameManager \&gt;\n|# instance\l&#45; logEnabled\l|+ Get()\l# LogIfEnabled()\l# MyAwake()\l&#45; Awake()\l}" alt="" coords="27,654,244,790"/>
-<area shape="rect" id="node3" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="431,661,626,783"/>
-<area shape="rect" id="node4" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="330,316,503,511"/>
-<area shape="rect" id="node8" href="$class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. " alt="" coords="269,617,407,827"/>
-<area shape="rect" id="node6" href="$class_unity_string_event.html" title="{UnityStringEvent\n||}" alt="" coords="427,132,545,209"/>
-<area shape="rect" id="node10" href="$class_listener_group.html" title="Helper class to execute adding and removing on all held Listeners (Events + Callbacks). " alt="" coords="189,353,306,474"/>
-<area shape="rect" id="node11" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; StringNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="528,272,713,555"/>
+<area shape="rect" id="node2" href="$class_mono_singleton.html" title="{MonoSingleton\&lt; GameManager \&gt;\n|# instance\l&#45; logEnabled\l|+ Get()\l# LogIfEnabled()\l# MyAwake()\l&#45; Awake()\l}" alt="" coords="5,861,223,997"/>
+<area shape="rect" id="node3" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="375,869,570,990"/>
+<area shape="rect" id="node4" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="549,553,722,762"/>
+<area shape="rect" id="node6" href="$interface_i_state.html" title="{IState\n||+ GetName()\l+ GetTriggers()\l+ Init()\l}" alt="" coords="513,347,622,453"/>
+<area shape="rect" id="node7" href="$class_game_string_event.html" title="{GameStringEvent\n||}" alt="" coords="301,361,423,439"/>
+<area shape="rect" id="node8" href="$class_game_event.html" title="{GameEvent\&lt; string \&gt;\n|+ Event\l+ Event\l|+ Invoke()\l+ Invoke()\l+ AddListener()\l+ AddListener()\l+ RemovedListener()\l+ RemoveListener()\l}" alt="" coords="289,132,435,297"/>
+<area shape="rect" id="node10" href="$classnet_1_1_net_event.html" title="{NetEvent\&lt; StringNetData \&gt;\n|&#45; eventCode\l&#45; localEvent\l&#45; target\l&#45; defaultData\l&#45; reliable\l&#45; cachedForRoom\l&#45; hasDefaultData\l|+ NetEvent()\l+ NetEvent()\l+ AddListener()\l+ RemoveListener()\l+ Invoke()\l+ Invoke()\l+ OnEvent()\l&#45; ~NetEvent()\l&#45; GetSpecificTargetActorNr()\l}" alt="" coords="339,516,524,799"/>
 </map>

@@ -1,29 +1,42 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="204,5,295,32"/>
+<area shape="rect" id="node2" href="$classmechanics_1_1_destructible.html" title="Destructibles have hit points and are affected by damage sources. " alt="" coords="209,5,300,32"/>
 <area shape="rect" id="node3" href="$interfacemechanics_1_1_i_status_holder.html" title="Interface for all Behaviours that shall be able to receive status effects. " alt="" coords="11,56,111,83"/>
-<area shape="rect" id="node4" href="$classmechanics_1_1_unit_status.html" title="UnitStatus" alt="" coords="208,56,291,83"/>
-<area shape="rect" id="node6" href="$class_camera_controller.html" title="CameraController" alt="" coords="188,411,311,437"/>
-<area shape="rect" id="node7" href="$classeditor_1_1_missing_references_finder.html" title="A helper editor script for finding missing references to objects. " alt="" coords="165,461,333,488"/>
-<area shape="rect" id="node8" href="$class_h_b_menu2.html" title="HBMenu2" alt="" coords="210,512,289,539"/>
-<area shape="rect" id="node9" href="$class_homebase_controller.html" title="HomebaseController" alt="" coords="180,563,319,589"/>
-<area shape="rect" id="node10" href="$class_homebase_menu.html" title="HomebaseMenu" alt="" coords="191,613,307,640"/>
-<area shape="rect" id="node11" href="$classlevel_1_1_death_zone.html" title="Hits destructibles touching it. " alt="" coords="207,664,291,691"/>
-<area shape="rect" id="node12" href="$class_main_game_overlay.html" title="MainGameOverlay" alt="" coords="185,715,313,741"/>
-<area shape="rect" id="node13" href="$classmechanics_1_1_collision_effector.html" title="A StatusEffect CollisionEffector applies its listed effects to a Collider2D touching it..." alt="" coords="192,765,307,792"/>
-<area shape="rect" id="node14" href="$class_mono_singleton.html" title="A base class for all our singletons, which are mainly management behaviours. " alt="" coords="180,816,319,843"/>
-<area shape="rect" id="node15" href="$class_multi_cam_target.html" title="Tries to register the object this is attached to upon start to the main camera&#39;s MultiTargetCamera sc..." alt="" coords="193,867,306,893"/>
-<area shape="rect" id="node16" href="$class_multi_target_camera.html" title="Camera automation script to follow all objects with the MultiCamTarget script attached. " alt="" coords="184,917,315,944"/>
-<area shape="rect" id="node17" href="$classnet_1_1_photon_destructor.html" title="Provides an RPC target for things to be destroyed by the master. " alt="" coords="188,968,311,995"/>
-<area shape="rect" id="node18" href="$class_parabola_mover.html" title="ParabolaMover" alt="" coords="196,1019,303,1045"/>
-<area shape="rect" id="node19" href="$class_player_controller.html" title="PlayerController" alt="" coords="192,1069,307,1096"/>
-<area shape="rect" id="node20" href="$class_scene_fader.html" title="SceneFader" alt="" coords="203,1120,295,1147"/>
-<area shape="rect" id="node21" href="$class_smooth_move_to_target.html" title="Moves this script&#39;s object towards the target position while active. " alt="" coords="176,1171,323,1197"/>
-<area shape="rect" id="node22" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="198,107,301,133"/>
-<area shape="rect" id="node25" href="$classui_1_1_main_menu.html" title="MainMenu" alt="" coords="208,157,291,184"/>
-<area shape="rect" id="node26" href="$classui_1_1_paused_menu.html" title="PausedMenu" alt="" coords="200,208,299,235"/>
-<area shape="rect" id="node27" href="$classui_1_1_settings_menu.html" title="SettingsMenu" alt="" coords="198,259,301,285"/>
-<area shape="rect" id="node28" href="$classui_1_1_std_dialog.html" title="A standard dialog handler, for use with a standard prefab. " alt="" coords="210,309,289,336"/>
-<area shape="rect" id="node29" href="$class_unity_template_projects_1_1_simple_camera_controller.html" title="SimpleCameraController" alt="" coords="168,360,331,387"/>
-<area shape="rect" id="node23" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="381,81,519,108"/>
-<area shape="rect" id="node24" href="$classnet_1_1_net_state_machine.html" title="NetStateMachine" alt="" coords="389,132,511,159"/>
+<area shape="rect" id="node4" href="$classmechanics_1_1_unit_status.html" title="UnitStatus" alt="" coords="213,56,296,83"/>
+<area shape="rect" id="node6" href="$classbackground_loop.html" title="backgroundLoop" alt="" coords="196,411,313,437"/>
+<area shape="rect" id="node7" href="$class_basic_camera_follow.html" title="BasicCameraFollow" alt="" coords="186,461,323,488"/>
+<area shape="rect" id="node8" href="$class_bootstrapper.html" title="Bootstrapper" alt="" coords="207,512,303,539"/>
+<area shape="rect" id="node9" href="$class_camera_controller.html" title="CameraController" alt="" coords="193,563,316,589"/>
+<area shape="rect" id="node10" href="$classeditor_1_1_missing_references_finder.html" title="A helper editor script for finding missing references to objects. " alt="" coords="171,613,339,640"/>
+<area shape="rect" id="node11" href="$class_h_b_menu2.html" title="HBMenu2" alt="" coords="215,664,294,691"/>
+<area shape="rect" id="node12" href="$class_hide_tilemap_collider_on_play.html" title="HideTilemapColliderOnPlay" alt="" coords="165,715,344,741"/>
+<area shape="rect" id="node13" href="$class_homebase_controller.html" title="HomebaseController" alt="" coords="185,765,324,792"/>
+<area shape="rect" id="node14" href="$class_homebase_menu.html" title="HomebaseMenu" alt="" coords="197,816,313,843"/>
+<area shape="rect" id="node15" href="$classlevel_1_1_death_zone.html" title="Hits destructibles touching it. " alt="" coords="213,867,297,893"/>
+<area shape="rect" id="node16" href="$class_main_game_overlay.html" title="MainGameOverlay" alt="" coords="191,917,319,944"/>
+<area shape="rect" id="node17" href="$class_math_unit_tests.html" title="MathUnitTests" alt="" coords="201,968,308,995"/>
+<area shape="rect" id="node18" href="$classmechanics_1_1_attack_target_tracker.html" title="This is to implement the target selection, as described here: Target Selection. " alt="" coords="185,1019,324,1045"/>
+<area shape="rect" id="node19" href="$classmechanics_1_1_collision_effector.html" title="A StatusEffect CollisionEffector applies its listed effects to a Collider2D touching it..." alt="" coords="197,1069,312,1096"/>
+<area shape="rect" id="node20" href="$classmechanics_1_1_food.html" title="Food" alt="" coords="229,1120,280,1147"/>
+<area shape="rect" id="node21" href="$class_mono_singleton.html" title="A base class for all our singletons, which are mainly management behaviours. " alt="" coords="185,1171,324,1197"/>
+<area shape="rect" id="node22" href="$class_multi_cam_target.html" title="Tries to register the object this is attached to upon start to the main camera&#39;s MultiTargetCamera sc..." alt="" coords="198,1221,311,1248"/>
+<area shape="rect" id="node23" href="$class_multi_target_camera.html" title="Camera automation script to follow all objects with the MultiCamTarget script attached. " alt="" coords="189,1272,320,1299"/>
+<area shape="rect" id="node24" href="$classnet_1_1_photon_destructor.html" title="Provides an RPC target for things to be destroyed by the master. " alt="" coords="193,1323,316,1349"/>
+<area shape="rect" id="node25" href="$class_notes.html" title="Notes" alt="" coords="227,1373,283,1400"/>
+<area shape="rect" id="node26" href="$class_parabola_mover.html" title="ParabolaMover" alt="" coords="201,1424,308,1451"/>
+<area shape="rect" id="node27" href="$class_parallax_scroll.html" title="Parallax scrolling script which should fit to the object drawing layer. " alt="" coords="203,1475,306,1501"/>
+<area shape="rect" id="node28" href="$class_player_controller.html" title="PlayerController" alt="" coords="197,1525,312,1552"/>
+<area shape="rect" id="node29" href="$class_scene_fader.html" title="SceneFader" alt="" coords="209,1576,301,1603"/>
+<area shape="rect" id="node30" href="$classselection_main_function.html" title="selectionMainFunction" alt="" coords="179,1627,331,1653"/>
+<area shape="rect" id="node31" href="$class_smooth_move_to_target.html" title="Moves this script&#39;s object towards the target position while active. " alt="" coords="181,1677,328,1704"/>
+<area shape="rect" id="node32" href="$class_state_machine.html" title="Common Base class for all state machines. " alt="" coords="203,1728,306,1755"/>
+<area shape="rect" id="node37" href="$classui_1_1_paused_menu.html" title="PausedMenu" alt="" coords="205,107,304,133"/>
+<area shape="rect" id="node38" href="$classui_1_1_settings_menu.html" title="SettingsMenu" alt="" coords="203,157,306,184"/>
+<area shape="rect" id="node39" href="$classui_1_1_std_dialog.html" title="A standard dialog handler, for use with a standard prefab. " alt="" coords="215,208,294,235"/>
+<area shape="rect" id="node40" href="$class_unit.html" title="Unit" alt="" coords="232,259,277,285"/>
+<area shape="rect" id="node41" href="$class_unit_sprite_animator.html" title="Triggers the Sprite Animator depending on actual current movement. " alt="" coords="189,309,320,336"/>
+<area shape="rect" id="node42" href="$class_unity_template_projects_1_1_simple_camera_controller.html" title="SimpleCameraController" alt="" coords="173,360,336,387"/>
+<area shape="rect" id="node33" href="$classmanagement_1_1_game_state_machine.html" title="The GameStateMachine holds the overall program state, transitioning through menu, in&#45;game..." alt="" coords="392,1652,529,1679"/>
+<area shape="rect" id="node34" href="$classnet_1_1_net_state_machine.html" title="NetStateMachine" alt="" coords="399,1703,522,1729"/>
+<area shape="rect" id="node35" href="$classui_1_1_main_menu_s_m.html" title="MainMenuSM" alt="" coords="409,1753,512,1780"/>
+<area shape="rect" id="node36" href="$class_unit_ai_state_machine.html" title="UnitAiStateMachine" alt="" coords="392,1804,529,1831"/>
 </map>

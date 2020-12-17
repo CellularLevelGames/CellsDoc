@@ -1,0 +1,4 @@
+<map id="IPageState" name="IPageState">
+<area shape="rect" id="node2" href="$classui_1_1_main_page_state.html" title="Behaviour of the main page of the MainMenuSM, responsible for reacting to button inputs. " alt="" coords="5,131,189,237"/>
+<area shape="rect" id="node3" href="$classui_1_1_settings_page_state.html" title="{SettingsPageState\n||+ InterpretInput()\l}" alt="" coords="213,145,344,223"/>
+</map>

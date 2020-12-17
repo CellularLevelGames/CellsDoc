@@ -94,16 +94,14 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_net_manager__inherit__graph.svg" width="234" height="683"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_net_manager__inherit__graph.svg" width="234" height="683"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for NetManager:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_net_manager__coll__graph.svg" width="1446" height="1339"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classnet_1_1_net_manager__coll__graph.svg" width="1386" height="1570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -177,9 +175,9 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 <tr class="memitem:a8920b351b26b16b6a03b25535fd207d2"><td class="memItemLeft" align="right" valign="top"><a id="a8920b351b26b16b6a03b25535fd207d2"></a>
 static <a class="el" href="classnet_1_1_net_state_machine.html">NetStateMachine</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetStateMachine</b> ()</td></tr>
 <tr class="separator:a8920b351b26b16b6a03b25535fd207d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7143979cb18023b1b22f7742b2bc4e30"><td class="memItemLeft" align="right" valign="top"><a id="a7143979cb18023b1b22f7742b2bc4e30"></a>
-static <a class="el" href="class_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurState</b> ()</td></tr>
-<tr class="separator:a7143979cb18023b1b22f7742b2bc4e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5194f7ab9196731cf24964f8635b78"><td class="memItemLeft" align="right" valign="top"><a id="a3d5194f7ab9196731cf24964f8635b78"></a>
+static <a class="el" href="interface_i_state.html">IState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurState</b> ()</td></tr>
+<tr class="separator:a3d5194f7ab9196731cf24964f8635b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -262,7 +260,7 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages all Network related topics, is persistent across scenes, just as the game manager. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>: Use Photon "Custom Properties" to sync client info, such as player info and infrequent stuff </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo:</a></b></dt><dd>: Use Photon "Custom Properties" to sync client info, such as player info and infrequent stuff </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00029">29</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -290,9 +288,9 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 </div><div class="memdoc">
 
 <p>Main connection function from outside the NET layer. </p>
-<p>Moves the Net <a class="el" href="class_state.html" title="Extended functionality for Unity SM Behaviours and makes them complete &#39;States&#39;. ">State</a> Machine to the "Connecting" state if plausible to do so. The detour over 'instance' allows a call of this funcion from an event. </p>
+<p>Moves the Net <a class="el" href="class_state.html" title="Non-template variant of the BaseState, expecting to be owned by a standard StateMachine. ">State</a> Machine to the "Connecting" state if plausible to do so. The detour over 'instance' allows a call of this funcion from an event. </p>
 
-<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00135">135</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00134">134</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
 
 </div>
 </div>
@@ -323,7 +321,7 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 <p>A Disconnect can be intentional or unintentional. </p>
 <p>Intentional: Triggered by any of the menus. Unintentional: Can happen at any time! </p>
 
-<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00217">217</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00216">216</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
 
 </div>
 </div>
@@ -350,9 +348,9 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>: We have to take over hosting or something! </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo:</a></b></dt><dd>: We have to take over hosting or something! </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00241">241</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00240">240</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
 
 </div>
 </div>
@@ -393,7 +391,7 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 <p>Is called whenever the custom data for any client changes. </p>
 <p>Is also called for the local client if connected or in active Offline Mode. In order to decouple the net management from the specifics of the game, no assumptions are made at this point on the content. Also an event with the data is raised so users of the NET layer subscribe to it, rather than being pushed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00255">255</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_net_manager_8cs_source.html#l00254">254</a> of file <a class="el" href="_net_manager_8cs_source.html">NetManager.cs</a>.</p>
 
 </div>
 </div>
@@ -409,7 +407,7 @@ static <a class="el" href="classnet_1_1_net_manager.html">NetManager</a>&#160;</
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 1 2020 11:31:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 17 2020 08:27:51 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

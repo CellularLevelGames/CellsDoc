@@ -1,0 +1,5 @@
+<map id="GatherTargetSelector" name="GatherTargetSelector">
+<area shape="rect" id="node2" href="$class_game_settings.html" title="Wraps game&#45;wide settings into one asset, modifyable from the editor. " alt="" coords="5,345,177,452"/>
+<area shape="rect" id="node4" href="$classmechanics_1_1_food.html" title="{Food\n|+ value\l+ weight\l+ totalStrengthNeeded\l+ curCarryStrength\l+ carrySlots\l+ destReachedEvent\l&#45; carriers\l|+ ReserveCarry()\l+ PickUp()\l+ Drop()\l+ HasFreeCarrySlot()\l+ IsFirstCarrier()\l+ GetCarrySpeedFactor()\l&#45; UpdateCarryStrengthBy()\l}" alt="" coords="201,272,376,525"/>
+<area shape="rect" id="node6" href="$class_unity_float_event.html" title="{UnityFloatEvent\n||}" alt="" coords="343,132,456,209"/>
+</map>

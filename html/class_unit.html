@@ -70,7 +70,11 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_unit-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Unit Class Reference</div>  </div>
@@ -81,32 +85,198 @@ $(function() {
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_unit__inherit__graph.svg" width="130" height="228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_unit__inherit__graph.svg" width="203" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for Unit:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_unit__coll__graph.svg" width="130" height="228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_unit__coll__graph.svg" width="632" height="810"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a308ab5eccd128ae11f7aca38935a554f"><td class="memItemLeft" align="right" valign="top"><a id="a308ab5eccd128ae11f7aca38935a554f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>MeleeAtkType</b> { <b>FirstInDirection</b>, 
+<b>Line</b>, 
+<b>Cone</b>
+ }</td></tr>
+<tr class="separator:a308ab5eccd128ae11f7aca38935a554f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a196176ef6b71c3938d99950dedcfc558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unit.html#a196176ef6b71c3938d99950dedcfc558">TryMeleeAttack</a> (float dir)</td></tr>
+<tr class="memdesc:a196176ef6b71c3938d99950dedcfc558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares an attack towards the given direction (degrees, unity-conform definition).  <a href="#a196176ef6b71c3938d99950dedcfc558">More...</a><br /></td></tr>
+<tr class="separator:a196176ef6b71c3938d99950dedcfc558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9cc94fec8d739570c7904994fd390e"><td class="memItemLeft" align="right" valign="top"><a id="a7e9cc94fec8d739570c7904994fd390e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsControlActive</b> ()</td></tr>
+<tr class="separator:a7e9cc94fec8d739570c7904994fd390e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afacf65ab4a54be5912a159216fd8ff3b"><td class="memItemLeft" align="right" valign="top"><a id="afacf65ab4a54be5912a159216fd8ff3b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>buildtime</b></td></tr>
-<tr class="separator:afacf65ab4a54be5912a159216fd8ff3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6d3141bf24aaf85fa7573865a1934f6"><td class="memItemLeft" align="right" valign="top"><a id="ad6d3141bf24aaf85fa7573865a1934f6"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>prefab</b></td></tr>
-<tr class="separator:ad6d3141bf24aaf85fa7573865a1934f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad548670a0c3f28e7521df1c44813ec72"><td class="memItemLeft" align="right" valign="top"><a id="ad548670a0c3f28e7521df1c44813ec72"></a>
+<a class="el" href="class_unit_info.html">UnitInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>info</b></td></tr>
+<tr class="separator:ad548670a0c3f28e7521df1c44813ec72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75fa734f9b6dde3eba401ff060f57f8"><td class="memItemLeft" align="right" valign="top"><a id="ad75fa734f9b6dde3eba401ff060f57f8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>controlActiveDebugOverride</b> = false</td></tr>
+<tr class="separator:ad75fa734f9b6dde3eba401ff060f57f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d1656d95bbdeb12217e8a71d8af0efb"><td class="memItemLeft" align="right" valign="top"><a id="a1d1656d95bbdeb12217e8a71d8af0efb"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curMeleeAtkRangeSq</b></td></tr>
+<tr class="separator:a1d1656d95bbdeb12217e8a71d8af0efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40fbc3a88d3bf496ba518c43e675e827"><td class="memItemLeft" align="right" valign="top"><a id="a40fbc3a88d3bf496ba518c43e675e827"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curSpeed</b></td></tr>
+<tr class="separator:a40fbc3a88d3bf496ba518c43e675e827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ae4b513cddd594f1c359e4f0a3e79a8c6"><td class="memItemLeft" align="right" valign="top"><a id="ae4b513cddd594f1c359e4f0a3e79a8c6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
+<tr class="separator:ae4b513cddd594f1c359e4f0a3e79a8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab186f8cd6bdb705958255039a3042eba"><td class="memItemLeft" align="right" valign="top"><a id="ab186f8cd6bdb705958255039a3042eba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>EvalMeleeAttack</b> (float dir)</td></tr>
+<tr class="separator:ab186f8cd6bdb705958255039a3042eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef2b74bfea58dd26e952b3205c2cb0c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unit.html#aef2b74bfea58dd26e952b3205c2cb0c2">AnimateMeleeAttack</a> ()</td></tr>
+<tr class="memdesc:aef2b74bfea58dd26e952b3205c2cb0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed on each client.  <a href="#aef2b74bfea58dd26e952b3205c2cb0c2">More...</a><br /></td></tr>
+<tr class="separator:aef2b74bfea58dd26e952b3205c2cb0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f624babc1f8a5f423a17172e538480"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unit.html#a47f624babc1f8a5f423a17172e538480">HitMeleeAttack</a> ()</td></tr>
+<tr class="memdesc:a47f624babc1f8a5f423a17172e538480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the melee attack animation.  <a href="#a47f624babc1f8a5f423a17172e538480">More...</a><br /></td></tr>
+<tr class="separator:a47f624babc1f8a5f423a17172e538480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3cacd61e2fb985addfa5cf6d1cfff77c"><td class="memItemLeft" align="right" valign="top"><a id="a3cacd61e2fb985addfa5cf6d1cfff77c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curMeleeAtkRange</b></td></tr>
+<tr class="separator:a3cacd61e2fb985addfa5cf6d1cfff77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a244e478e7fc79fdda1d19a03492a8ac2"><td class="memItemLeft" align="right" valign="top"><a id="a244e478e7fc79fdda1d19a03492a8ac2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_unit.html#a244e478e7fc79fdda1d19a03492a8ac2">curMeleeAtkDelay</a></td></tr>
+<tr class="memdesc:a244e478e7fc79fdda1d19a03492a8ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">e.g. large, strong units may have a significant atk delay. <br /></td></tr>
+<tr class="separator:a244e478e7fc79fdda1d19a03492a8ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903bfa1dc6238c422929cfdda8d603d4"><td class="memItemLeft" align="right" valign="top"><a id="a903bfa1dc6238c422929cfdda8d603d4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curConewidth</b></td></tr>
+<tr class="separator:a903bfa1dc6238c422929cfdda8d603d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0b0a5219bf3b19e1e3cfcf8dc98905"><td class="memItemLeft" align="right" valign="top"><a id="aea0b0a5219bf3b19e1e3cfcf8dc98905"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curMeleeAtkCooldown</b></td></tr>
+<tr class="separator:aea0b0a5219bf3b19e1e3cfcf8dc98905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a00d710f5c4a1cdbc879dadc5b32e39"><td class="memItemLeft" align="right" valign="top"><a id="a2a00d710f5c4a1cdbc879dadc5b32e39"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curAttackSpeed</b></td></tr>
+<tr class="separator:a2a00d710f5c4a1cdbc879dadc5b32e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e86bc8ea2f9aa4dbac4e14c9c18938e"><td class="memItemLeft" align="right" valign="top"><a id="a7e86bc8ea2f9aa4dbac4e14c9c18938e"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>curAttackDamage</b></td></tr>
+<tr class="separator:a7e86bc8ea2f9aa4dbac4e14c9c18938e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c410eac0845194dfe31232d752254d9"><td class="memItemLeft" align="right" valign="top"><a id="a1c410eac0845194dfe31232d752254d9"></a>
+PhotonView&#160;</td><td class="memItemRight" valign="bottom"><b>pv</b></td></tr>
+<tr class="separator:a1c410eac0845194dfe31232d752254d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae172dde1a18b5a7e1d61dcb0323ff401"><td class="memItemLeft" align="right" valign="top"><a id="ae172dde1a18b5a7e1d61dcb0323ff401"></a>
+<a class="el" href="class_unit_sprite_animator.html">UnitSpriteAnimator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>unitAnim</b></td></tr>
+<tr class="separator:ae172dde1a18b5a7e1d61dcb0323ff401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94f7d7dfcc9422c318d999e6a3057f8"><td class="memItemLeft" align="right" valign="top"><a id="ad94f7d7dfcc9422c318d999e6a3057f8"></a>
+<a class="el" href="classmechanics_1_1_destructible.html">Destructible</a>&#160;</td><td class="memItemRight" valign="bottom"><b>destructible</b></td></tr>
+<tr class="separator:ad94f7d7dfcc9422c318d999e6a3057f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7f0159c2a14e33dceea8c99b60e479"><td class="memItemLeft" align="right" valign="top"><a id="a1e7f0159c2a14e33dceea8c99b60e479"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>attackAvailable</b> = true</td></tr>
+<tr class="separator:a1e7f0159c2a14e33dceea8c99b60e479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_unit_8cs_source.html#l00006">6</a> of file <a class="el" href="_unit_8cs_source.html">Unit.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Toni/Documents/Programming/Unity/Cells_wip2/Assets/Scripts/<a class="el" href="_unit_8cs_source.html">Unit.cs</a></li>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>: Have a concept for abilities with cooldown. A normal attack can be one of those. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_unit_8cs_source.html#l00011">11</a> of file <a class="el" href="_unit_8cs_source.html">Unit.cs</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aef2b74bfea58dd26e952b3205c2cb0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2b74bfea58dd26e952b3205c2cb0c2">&#9670;&nbsp;</a></span>AnimateMeleeAttack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AnimateMeleeAttack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executed on each client. </p>
+<p>For UX, the hit is also registered client-side, i.e. dodging will be correct at the evading client. For this, the animation calls a callback upon the instance of the hit. The attack speed will change the animation itself, also leading to an earlier event. </p>
+
+<p class="definition">Definition at line <a class="el" href="_unit_8cs_source.html#l00109">109</a> of file <a class="el" href="_unit_8cs_source.html">Unit.cs</a>.</p>
+
+</div>
+</div>
+<a id="a47f624babc1f8a5f423a17172e538480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f624babc1f8a5f423a17172e538480">&#9670;&nbsp;</a></span>HitMeleeAttack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HitMeleeAttack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called from the melee attack animation. </p>
+<p>This is the instance of damage of a melee attack. We check for colliders up to the melee attack range and use Destructible components to do damage. Damage is only done if we own the Destructible.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd><p class="startdd">: Think about where the attack hits and how to take cur rotation of unit into account. </p>
+<p class="enddd">: Take MeleeAtkType into account to not do damage to all Destructibles in range. </p>
+</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_unit_8cs_source.html#l00123">123</a> of file <a class="el" href="_unit_8cs_source.html">Unit.cs</a>.</p>
+
+</div>
+</div>
+<a id="a196176ef6b71c3938d99950dedcfc558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196176ef6b71c3938d99950dedcfc558">&#9670;&nbsp;</a></span>TryMeleeAttack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TryMeleeAttack </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepares an attack towards the given direction (degrees, unity-conform definition). </p>
+<p>The attack may not be executed if it is on cooldown. Animation and evaluation of the attack is synced. This evaluation shall be done at the fitting time instance of the animation to allow for dodging. </p>
+
+<p class="definition">Definition at line <a class="el" href="_unit_8cs_source.html#l00081">81</a> of file <a class="el" href="_unit_8cs_source.html">Unit.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>C:/Users/Toni/Documents/Programming/Unity/Cells_wip2/Assets/Scripts/Mechanics/Units/<a class="el" href="_unit_8cs_source.html">Unit.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -117,7 +287,7 @@ GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>prefab</b></td>
 </div>
 </div>
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 1 2020 11:31:49 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 17 2020 08:27:50 for Cells Documentation by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
